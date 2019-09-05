@@ -1,1982 +1,0 @@
-Dependencies for Project 'project', Target 'rt-thread': (DO NOT MODIFY !)
-F (applications\main.c)(0x5D6E4166)(--c99 -c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections -I applications -I . -I drivers -I Libraries\CMSIS\CoreSupport -I Libraries\CMSIS\DeviceSupport -I Libraries\SWM320_StdPeriph_Driver -I ..\..\include -I ..\..\libcpu\arm\cortex-m4 -I ..\..\libcpu\arm\common -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\finsh-I.\RTE\_rt-thread-IC:\Users\llizh\AppData\Local\Arm\Packs\Synwit\SWM32_DFP\1.9.1\CSL\SWM320\CMSIS\DeviceSupport-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527"-o .\build\keil\obj\main.o --depend .\build\keil\obj\main.d)
-I (..\..\include\rtthread.h)(0x5D6E27EE)
-I (.\rtconfig.h)(0x5D6E27E9)
-I (..\..\include\rtdebug.h)(0x5D6E27EE)
-I (..\..\include\rtdef.h)(0x5D6E27EE)
-I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x599ECD2A)
-I (..\..\include\rtlibc.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_stat.h)(0x5D6E27EE)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
-I (C:\Keil_v5\ARM\ARMCC\include\time.h)(0x599ECD2E)
-I (..\..\include\libc/libc_errno.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_fcntl.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_ioctl.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_dirent.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_signal.h)(0x5D6E27EE)
-I (C:\Keil_v5\ARM\ARMCC\include\signal.h)(0x599ECD2C)
-I (..\..\include\libc/libc_fdset.h)(0x5D6E27EE)
-I (..\..\include\rtservice.h)(0x5D6E27EE)
-I (..\..\include\rtm.h)(0x5D6E27EE)
-I (..\..\components\finsh\finsh_api.h)(0x5D6E27ED)
-I (..\..\components\drivers\include\rtdevice.h)(0x5D6E27EC)
-I (..\..\components\drivers\include\ipc/ringbuffer.h)(0x5D6E27EC)
-I (..\..\components\drivers\include\ipc/completion.h)(0x5D6E27EC)
-I (..\..\components\drivers\include\ipc/dataqueue.h)(0x5D6E27EC)
-I (..\..\components\drivers\include\ipc/workqueue.h)(0x5D6E27EC)
-I (..\..\components\drivers\include\ipc/waitqueue.h)(0x5D6E27EC)
-I (..\..\components\drivers\include\ipc/pipe.h)(0x5D6E27EC)
-I (..\..\components\drivers\include\ipc/poll.h)(0x5D6E27EC)
-I (..\..\components\drivers\include\ipc/ringblk_buf.h)(0x5D6E27EC)
-I (..\..\components\drivers\include\drivers/serial.h)(0x5D6E27EC)
-I (..\..\components\drivers\include\drivers/pin.h)(0x5D6E27EC)
-I (..\..\components\drivers\include\drivers/hwtimer.h)(0x5D6E27EC)
-I (..\..\components\drivers\include\drivers/rt_drv_pwm.h)(0x5D6E27EC)
-F (drivers\board.c)(0x5D6E27E9)(--c99 -c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections -I applications -I . -I drivers -I Libraries\CMSIS\CoreSupport -I Libraries\CMSIS\DeviceSupport -I Libraries\SWM320_StdPeriph_Driver -I ..\..\include -I ..\..\libcpu\arm\cortex-m4 -I ..\..\libcpu\arm\common -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\finsh-I.\RTE\_rt-thread-IC:\Users\llizh\AppData\Local\Arm\Packs\Synwit\SWM32_DFP\1.9.1\CSL\SWM320\CMSIS\DeviceSupport-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527"-o .\build\keil\obj\board.o --depend .\build\keil\obj\board.d)
-I (drivers\board.h)(0x5D6E27E9)
-I (..\..\include\rtthread.h)(0x5D6E27EE)
-I (.\rtconfig.h)(0x5D6E27E9)
-I (..\..\include\rtdebug.h)(0x5D6E27EE)
-I (..\..\include\rtdef.h)(0x5D6E27EE)
-I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x599ECD2A)
-I (..\..\include\rtlibc.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_stat.h)(0x5D6E27EE)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
-I (C:\Keil_v5\ARM\ARMCC\include\time.h)(0x599ECD2E)
-I (..\..\include\libc/libc_errno.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_fcntl.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_ioctl.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_dirent.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_signal.h)(0x5D6E27EE)
-I (C:\Keil_v5\ARM\ARMCC\include\signal.h)(0x599ECD2C)
-I (..\..\include\libc/libc_fdset.h)(0x5D6E27EE)
-I (..\..\include\rtservice.h)(0x5D6E27EE)
-I (..\..\include\rtm.h)(0x5D6E27EE)
-I (..\..\components\finsh\finsh_api.h)(0x5D6E27ED)
-I (Libraries\CMSIS\DeviceSupport\SWM320.h)(0x5D6E27E9)
-I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
-I (Libraries\CMSIS\CoreSupport\core_cm4.h)(0x5D6E27E9)
-I (Libraries\CMSIS\CoreSupport\core_cmInstr.h)(0x5D6E27E9)
-I (Libraries\CMSIS\CoreSupport\core_cmFunc.h)(0x5D6E27E9)
-I (Libraries\CMSIS\CoreSupport\core_cmSimd.h)(0x5D6E27E9)
-I (Libraries\CMSIS\DeviceSupport\system_SWM320.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_port.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_gpio.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_exti.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_timr.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_uart.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_spi.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_i2c.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_pwm.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_adc.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_dma.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_lcd.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_can.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_sdio.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_flash.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_norflash.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_sdram.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_crc.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_rtc.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_wdt.h)(0x5D6E27E9)
-F (drivers\drv_gpio.c)(0x5D6E27E9)(--c99 -c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections -I applications -I . -I drivers -I Libraries\CMSIS\CoreSupport -I Libraries\CMSIS\DeviceSupport -I Libraries\SWM320_StdPeriph_Driver -I ..\..\include -I ..\..\libcpu\arm\cortex-m4 -I ..\..\libcpu\arm\common -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\finsh-I.\RTE\_rt-thread-IC:\Users\llizh\AppData\Local\Arm\Packs\Synwit\SWM32_DFP\1.9.1\CSL\SWM320\CMSIS\DeviceSupport-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527"-o .\build\keil\obj\drv_gpio.o --depend .\build\keil\obj\drv_gpio.d)
-I (..\..\include\rtthread.h)(0x5D6E27EE)
-I (.\rtconfig.h)(0x5D6E27E9)
-I (..\..\include\rtdebug.h)(0x5D6E27EE)
-I (..\..\include\rtdef.h)(0x5D6E27EE)
-I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x599ECD2A)
-I (..\..\include\rtlibc.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_stat.h)(0x5D6E27EE)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
-I (C:\Keil_v5\ARM\ARMCC\include\time.h)(0x599ECD2E)
-I (..\..\include\libc/libc_errno.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_fcntl.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_ioctl.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_dirent.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_signal.h)(0x5D6E27EE)
-I (C:\Keil_v5\ARM\ARMCC\include\signal.h)(0x599ECD2C)
-I (..\..\include\libc/libc_fdset.h)(0x5D6E27EE)
-I (..\..\include\rtservice.h)(0x5D6E27EE)
-I (..\..\include\rtm.h)(0x5D6E27EE)
-I (..\..\components\finsh\finsh_api.h)(0x5D6E27ED)
-I (..\..\components\drivers\include\rtdevice.h)(0x5D6E27EC)
-I (..\..\components\drivers\include\ipc/ringbuffer.h)(0x5D6E27EC)
-I (..\..\components\drivers\include\ipc/completion.h)(0x5D6E27EC)
-I (..\..\components\drivers\include\ipc/dataqueue.h)(0x5D6E27EC)
-I (..\..\components\drivers\include\ipc/workqueue.h)(0x5D6E27EC)
-I (..\..\components\drivers\include\ipc/waitqueue.h)(0x5D6E27EC)
-I (..\..\components\drivers\include\ipc/pipe.h)(0x5D6E27EC)
-I (..\..\components\drivers\include\ipc/poll.h)(0x5D6E27EC)
-I (..\..\components\drivers\include\ipc/ringblk_buf.h)(0x5D6E27EC)
-I (..\..\components\drivers\include\drivers/serial.h)(0x5D6E27EC)
-I (..\..\components\drivers\include\drivers/pin.h)(0x5D6E27EC)
-I (..\..\components\drivers\include\drivers/hwtimer.h)(0x5D6E27EC)
-I (..\..\components\drivers\include\drivers/rt_drv_pwm.h)(0x5D6E27EC)
-I (drivers\board.h)(0x5D6E27E9)
-I (Libraries\CMSIS\DeviceSupport\SWM320.h)(0x5D6E27E9)
-I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
-I (Libraries\CMSIS\CoreSupport\core_cm4.h)(0x5D6E27E9)
-I (Libraries\CMSIS\CoreSupport\core_cmInstr.h)(0x5D6E27E9)
-I (Libraries\CMSIS\CoreSupport\core_cmFunc.h)(0x5D6E27E9)
-I (Libraries\CMSIS\CoreSupport\core_cmSimd.h)(0x5D6E27E9)
-I (Libraries\CMSIS\DeviceSupport\system_SWM320.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_port.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_gpio.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_exti.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_timr.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_uart.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_spi.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_i2c.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_pwm.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_adc.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_dma.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_lcd.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_can.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_sdio.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_flash.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_norflash.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_sdram.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_crc.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_rtc.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_wdt.h)(0x5D6E27E9)
-I (..\..\include\rthw.h)(0x5D6E27EE)
-F (drivers\drv_uart.c)(0x5D6E27E9)(--c99 -c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections -I applications -I . -I drivers -I Libraries\CMSIS\CoreSupport -I Libraries\CMSIS\DeviceSupport -I Libraries\SWM320_StdPeriph_Driver -I ..\..\include -I ..\..\libcpu\arm\cortex-m4 -I ..\..\libcpu\arm\common -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\finsh-I.\RTE\_rt-thread-IC:\Users\llizh\AppData\Local\Arm\Packs\Synwit\SWM32_DFP\1.9.1\CSL\SWM320\CMSIS\DeviceSupport-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527"-o .\build\keil\obj\drv_uart.o --depend .\build\keil\obj\drv_uart.d)
-I (..\..\include\rtthread.h)(0x5D6E27EE)
-I (.\rtconfig.h)(0x5D6E27E9)
-I (..\..\include\rtdebug.h)(0x5D6E27EE)
-I (..\..\include\rtdef.h)(0x5D6E27EE)
-I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x599ECD2A)
-I (..\..\include\rtlibc.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_stat.h)(0x5D6E27EE)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
-I (C:\Keil_v5\ARM\ARMCC\include\time.h)(0x599ECD2E)
-I (..\..\include\libc/libc_errno.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_fcntl.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_ioctl.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_dirent.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_signal.h)(0x5D6E27EE)
-I (C:\Keil_v5\ARM\ARMCC\include\signal.h)(0x599ECD2C)
-I (..\..\include\libc/libc_fdset.h)(0x5D6E27EE)
-I (..\..\include\rtservice.h)(0x5D6E27EE)
-I (..\..\include\rtm.h)(0x5D6E27EE)
-I (..\..\components\finsh\finsh_api.h)(0x5D6E27ED)
-I (..\..\components\drivers\include\rtdevice.h)(0x5D6E27EC)
-I (..\..\components\drivers\include\ipc/ringbuffer.h)(0x5D6E27EC)
-I (..\..\components\drivers\include\ipc/completion.h)(0x5D6E27EC)
-I (..\..\components\drivers\include\ipc/dataqueue.h)(0x5D6E27EC)
-I (..\..\components\drivers\include\ipc/workqueue.h)(0x5D6E27EC)
-I (..\..\components\drivers\include\ipc/waitqueue.h)(0x5D6E27EC)
-I (..\..\components\drivers\include\ipc/pipe.h)(0x5D6E27EC)
-I (..\..\components\drivers\include\ipc/poll.h)(0x5D6E27EC)
-I (..\..\components\drivers\include\ipc/ringblk_buf.h)(0x5D6E27EC)
-I (..\..\components\drivers\include\drivers/serial.h)(0x5D6E27EC)
-I (..\..\components\drivers\include\drivers/pin.h)(0x5D6E27EC)
-I (..\..\components\drivers\include\drivers/hwtimer.h)(0x5D6E27EC)
-I (..\..\components\drivers\include\drivers/rt_drv_pwm.h)(0x5D6E27EC)
-I (drivers\board.h)(0x5D6E27E9)
-I (Libraries\CMSIS\DeviceSupport\SWM320.h)(0x5D6E27E9)
-I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
-I (Libraries\CMSIS\CoreSupport\core_cm4.h)(0x5D6E27E9)
-I (Libraries\CMSIS\CoreSupport\core_cmInstr.h)(0x5D6E27E9)
-I (Libraries\CMSIS\CoreSupport\core_cmFunc.h)(0x5D6E27E9)
-I (Libraries\CMSIS\CoreSupport\core_cmSimd.h)(0x5D6E27E9)
-I (Libraries\CMSIS\DeviceSupport\system_SWM320.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_port.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_gpio.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_exti.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_timr.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_uart.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_spi.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_i2c.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_pwm.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_adc.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_dma.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_lcd.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_can.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_sdio.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_flash.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_norflash.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_sdram.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_crc.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_rtc.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_wdt.h)(0x5D6E27E9)
-F (Libraries\CMSIS\DeviceSupport\system_SWM320.c)(0x5D6E27E9)(--c99 -c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections -I applications -I . -I drivers -I Libraries\CMSIS\CoreSupport -I Libraries\CMSIS\DeviceSupport -I Libraries\SWM320_StdPeriph_Driver -I ..\..\include -I ..\..\libcpu\arm\cortex-m4 -I ..\..\libcpu\arm\common -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\finsh-I.\RTE\_rt-thread-IC:\Users\llizh\AppData\Local\Arm\Packs\Synwit\SWM32_DFP\1.9.1\CSL\SWM320\CMSIS\DeviceSupport-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527"-o .\build\keil\obj\system_swm320.o --depend .\build\keil\obj\system_swm320.d)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
-I (Libraries\CMSIS\DeviceSupport\SWM320.h)(0x5D6E27E9)
-I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
-I (Libraries\CMSIS\CoreSupport\core_cm4.h)(0x5D6E27E9)
-I (Libraries\CMSIS\CoreSupport\core_cmInstr.h)(0x5D6E27E9)
-I (Libraries\CMSIS\CoreSupport\core_cmFunc.h)(0x5D6E27E9)
-I (Libraries\CMSIS\CoreSupport\core_cmSimd.h)(0x5D6E27E9)
-I (Libraries\CMSIS\DeviceSupport\system_SWM320.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_port.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_gpio.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_exti.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_timr.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_uart.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_spi.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_i2c.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_pwm.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_adc.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_dma.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_lcd.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_can.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_sdio.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_flash.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_norflash.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_sdram.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_crc.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_rtc.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_wdt.h)(0x5D6E27E9)
-F (Libraries\SWM320_StdPeriph_Driver\SWM320_adc.c)(0x5D6E27E9)(--c99 -c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections -I applications -I . -I drivers -I Libraries\CMSIS\CoreSupport -I Libraries\CMSIS\DeviceSupport -I Libraries\SWM320_StdPeriph_Driver -I ..\..\include -I ..\..\libcpu\arm\cortex-m4 -I ..\..\libcpu\arm\common -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\finsh-I.\RTE\_rt-thread-IC:\Users\llizh\AppData\Local\Arm\Packs\Synwit\SWM32_DFP\1.9.1\CSL\SWM320\CMSIS\DeviceSupport-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527"-o .\build\keil\obj\swm320_adc.o --depend .\build\keil\obj\swm320_adc.d)
-I (Libraries\CMSIS\DeviceSupport\SWM320.h)(0x5D6E27E9)
-I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
-I (Libraries\CMSIS\CoreSupport\core_cm4.h)(0x5D6E27E9)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
-I (Libraries\CMSIS\CoreSupport\core_cmInstr.h)(0x5D6E27E9)
-I (Libraries\CMSIS\CoreSupport\core_cmFunc.h)(0x5D6E27E9)
-I (Libraries\CMSIS\CoreSupport\core_cmSimd.h)(0x5D6E27E9)
-I (Libraries\CMSIS\DeviceSupport\system_SWM320.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_port.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_gpio.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_exti.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_timr.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_uart.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_spi.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_i2c.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_pwm.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_adc.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_dma.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_lcd.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_can.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_sdio.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_flash.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_norflash.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_sdram.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_crc.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_rtc.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_wdt.h)(0x5D6E27E9)
-F (Libraries\SWM320_StdPeriph_Driver\SWM320_can.c)(0x5D6E27E9)(--c99 -c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections -I applications -I . -I drivers -I Libraries\CMSIS\CoreSupport -I Libraries\CMSIS\DeviceSupport -I Libraries\SWM320_StdPeriph_Driver -I ..\..\include -I ..\..\libcpu\arm\cortex-m4 -I ..\..\libcpu\arm\common -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\finsh-I.\RTE\_rt-thread-IC:\Users\llizh\AppData\Local\Arm\Packs\Synwit\SWM32_DFP\1.9.1\CSL\SWM320\CMSIS\DeviceSupport-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527"-o .\build\keil\obj\swm320_can.o --depend .\build\keil\obj\swm320_can.d)
-I (Libraries\CMSIS\DeviceSupport\SWM320.h)(0x5D6E27E9)
-I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
-I (Libraries\CMSIS\CoreSupport\core_cm4.h)(0x5D6E27E9)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
-I (Libraries\CMSIS\CoreSupport\core_cmInstr.h)(0x5D6E27E9)
-I (Libraries\CMSIS\CoreSupport\core_cmFunc.h)(0x5D6E27E9)
-I (Libraries\CMSIS\CoreSupport\core_cmSimd.h)(0x5D6E27E9)
-I (Libraries\CMSIS\DeviceSupport\system_SWM320.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_port.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_gpio.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_exti.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_timr.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_uart.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_spi.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_i2c.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_pwm.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_adc.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_dma.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_lcd.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_can.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_sdio.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_flash.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_norflash.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_sdram.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_crc.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_rtc.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_wdt.h)(0x5D6E27E9)
-F (Libraries\SWM320_StdPeriph_Driver\SWM320_crc.c)(0x5D6E27E9)(--c99 -c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections -I applications -I . -I drivers -I Libraries\CMSIS\CoreSupport -I Libraries\CMSIS\DeviceSupport -I Libraries\SWM320_StdPeriph_Driver -I ..\..\include -I ..\..\libcpu\arm\cortex-m4 -I ..\..\libcpu\arm\common -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\finsh-I.\RTE\_rt-thread-IC:\Users\llizh\AppData\Local\Arm\Packs\Synwit\SWM32_DFP\1.9.1\CSL\SWM320\CMSIS\DeviceSupport-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527"-o .\build\keil\obj\swm320_crc.o --depend .\build\keil\obj\swm320_crc.d)
-I (Libraries\CMSIS\DeviceSupport\SWM320.h)(0x5D6E27E9)
-I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
-I (Libraries\CMSIS\CoreSupport\core_cm4.h)(0x5D6E27E9)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
-I (Libraries\CMSIS\CoreSupport\core_cmInstr.h)(0x5D6E27E9)
-I (Libraries\CMSIS\CoreSupport\core_cmFunc.h)(0x5D6E27E9)
-I (Libraries\CMSIS\CoreSupport\core_cmSimd.h)(0x5D6E27E9)
-I (Libraries\CMSIS\DeviceSupport\system_SWM320.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_port.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_gpio.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_exti.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_timr.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_uart.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_spi.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_i2c.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_pwm.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_adc.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_dma.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_lcd.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_can.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_sdio.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_flash.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_norflash.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_sdram.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_crc.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_rtc.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_wdt.h)(0x5D6E27E9)
-F (Libraries\SWM320_StdPeriph_Driver\SWM320_dma.c)(0x5D6E27E9)(--c99 -c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections -I applications -I . -I drivers -I Libraries\CMSIS\CoreSupport -I Libraries\CMSIS\DeviceSupport -I Libraries\SWM320_StdPeriph_Driver -I ..\..\include -I ..\..\libcpu\arm\cortex-m4 -I ..\..\libcpu\arm\common -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\finsh-I.\RTE\_rt-thread-IC:\Users\llizh\AppData\Local\Arm\Packs\Synwit\SWM32_DFP\1.9.1\CSL\SWM320\CMSIS\DeviceSupport-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527"-o .\build\keil\obj\swm320_dma.o --depend .\build\keil\obj\swm320_dma.d)
-I (Libraries\CMSIS\DeviceSupport\SWM320.h)(0x5D6E27E9)
-I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
-I (Libraries\CMSIS\CoreSupport\core_cm4.h)(0x5D6E27E9)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
-I (Libraries\CMSIS\CoreSupport\core_cmInstr.h)(0x5D6E27E9)
-I (Libraries\CMSIS\CoreSupport\core_cmFunc.h)(0x5D6E27E9)
-I (Libraries\CMSIS\CoreSupport\core_cmSimd.h)(0x5D6E27E9)
-I (Libraries\CMSIS\DeviceSupport\system_SWM320.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_port.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_gpio.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_exti.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_timr.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_uart.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_spi.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_i2c.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_pwm.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_adc.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_dma.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_lcd.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_can.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_sdio.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_flash.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_norflash.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_sdram.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_crc.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_rtc.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_wdt.h)(0x5D6E27E9)
-F (Libraries\SWM320_StdPeriph_Driver\SWM320_exti.c)(0x5D6E27E9)(--c99 -c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections -I applications -I . -I drivers -I Libraries\CMSIS\CoreSupport -I Libraries\CMSIS\DeviceSupport -I Libraries\SWM320_StdPeriph_Driver -I ..\..\include -I ..\..\libcpu\arm\cortex-m4 -I ..\..\libcpu\arm\common -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\finsh-I.\RTE\_rt-thread-IC:\Users\llizh\AppData\Local\Arm\Packs\Synwit\SWM32_DFP\1.9.1\CSL\SWM320\CMSIS\DeviceSupport-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527"-o .\build\keil\obj\swm320_exti.o --depend .\build\keil\obj\swm320_exti.d)
-I (Libraries\CMSIS\DeviceSupport\SWM320.h)(0x5D6E27E9)
-I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
-I (Libraries\CMSIS\CoreSupport\core_cm4.h)(0x5D6E27E9)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
-I (Libraries\CMSIS\CoreSupport\core_cmInstr.h)(0x5D6E27E9)
-I (Libraries\CMSIS\CoreSupport\core_cmFunc.h)(0x5D6E27E9)
-I (Libraries\CMSIS\CoreSupport\core_cmSimd.h)(0x5D6E27E9)
-I (Libraries\CMSIS\DeviceSupport\system_SWM320.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_port.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_gpio.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_exti.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_timr.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_uart.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_spi.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_i2c.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_pwm.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_adc.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_dma.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_lcd.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_can.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_sdio.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_flash.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_norflash.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_sdram.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_crc.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_rtc.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_wdt.h)(0x5D6E27E9)
-F (Libraries\SWM320_StdPeriph_Driver\SWM320_flash.c)(0x5D6E27E9)(--c99 -c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections -I applications -I . -I drivers -I Libraries\CMSIS\CoreSupport -I Libraries\CMSIS\DeviceSupport -I Libraries\SWM320_StdPeriph_Driver -I ..\..\include -I ..\..\libcpu\arm\cortex-m4 -I ..\..\libcpu\arm\common -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\finsh-I.\RTE\_rt-thread-IC:\Users\llizh\AppData\Local\Arm\Packs\Synwit\SWM32_DFP\1.9.1\CSL\SWM320\CMSIS\DeviceSupport-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527"-o .\build\keil\obj\swm320_flash.o --depend .\build\keil\obj\swm320_flash.d)
-I (Libraries\CMSIS\DeviceSupport\SWM320.h)(0x5D6E27E9)
-I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
-I (Libraries\CMSIS\CoreSupport\core_cm4.h)(0x5D6E27E9)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
-I (Libraries\CMSIS\CoreSupport\core_cmInstr.h)(0x5D6E27E9)
-I (Libraries\CMSIS\CoreSupport\core_cmFunc.h)(0x5D6E27E9)
-I (Libraries\CMSIS\CoreSupport\core_cmSimd.h)(0x5D6E27E9)
-I (Libraries\CMSIS\DeviceSupport\system_SWM320.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_port.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_gpio.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_exti.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_timr.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_uart.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_spi.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_i2c.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_pwm.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_adc.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_dma.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_lcd.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_can.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_sdio.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_flash.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_norflash.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_sdram.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_crc.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_rtc.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_wdt.h)(0x5D6E27E9)
-F (Libraries\SWM320_StdPeriph_Driver\SWM320_gpio.c)(0x5D6E27E9)(--c99 -c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections -I applications -I . -I drivers -I Libraries\CMSIS\CoreSupport -I Libraries\CMSIS\DeviceSupport -I Libraries\SWM320_StdPeriph_Driver -I ..\..\include -I ..\..\libcpu\arm\cortex-m4 -I ..\..\libcpu\arm\common -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\finsh-I.\RTE\_rt-thread-IC:\Users\llizh\AppData\Local\Arm\Packs\Synwit\SWM32_DFP\1.9.1\CSL\SWM320\CMSIS\DeviceSupport-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527"-o .\build\keil\obj\swm320_gpio.o --depend .\build\keil\obj\swm320_gpio.d)
-I (Libraries\CMSIS\DeviceSupport\SWM320.h)(0x5D6E27E9)
-I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
-I (Libraries\CMSIS\CoreSupport\core_cm4.h)(0x5D6E27E9)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
-I (Libraries\CMSIS\CoreSupport\core_cmInstr.h)(0x5D6E27E9)
-I (Libraries\CMSIS\CoreSupport\core_cmFunc.h)(0x5D6E27E9)
-I (Libraries\CMSIS\CoreSupport\core_cmSimd.h)(0x5D6E27E9)
-I (Libraries\CMSIS\DeviceSupport\system_SWM320.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_port.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_gpio.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_exti.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_timr.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_uart.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_spi.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_i2c.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_pwm.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_adc.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_dma.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_lcd.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_can.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_sdio.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_flash.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_norflash.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_sdram.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_crc.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_rtc.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_wdt.h)(0x5D6E27E9)
-F (Libraries\SWM320_StdPeriph_Driver\SWM320_i2c.c)(0x5D6E27E9)(--c99 -c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections -I applications -I . -I drivers -I Libraries\CMSIS\CoreSupport -I Libraries\CMSIS\DeviceSupport -I Libraries\SWM320_StdPeriph_Driver -I ..\..\include -I ..\..\libcpu\arm\cortex-m4 -I ..\..\libcpu\arm\common -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\finsh-I.\RTE\_rt-thread-IC:\Users\llizh\AppData\Local\Arm\Packs\Synwit\SWM32_DFP\1.9.1\CSL\SWM320\CMSIS\DeviceSupport-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527"-o .\build\keil\obj\swm320_i2c.o --depend .\build\keil\obj\swm320_i2c.d)
-I (Libraries\CMSIS\DeviceSupport\SWM320.h)(0x5D6E27E9)
-I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
-I (Libraries\CMSIS\CoreSupport\core_cm4.h)(0x5D6E27E9)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
-I (Libraries\CMSIS\CoreSupport\core_cmInstr.h)(0x5D6E27E9)
-I (Libraries\CMSIS\CoreSupport\core_cmFunc.h)(0x5D6E27E9)
-I (Libraries\CMSIS\CoreSupport\core_cmSimd.h)(0x5D6E27E9)
-I (Libraries\CMSIS\DeviceSupport\system_SWM320.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_port.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_gpio.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_exti.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_timr.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_uart.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_spi.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_i2c.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_pwm.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_adc.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_dma.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_lcd.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_can.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_sdio.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_flash.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_norflash.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_sdram.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_crc.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_rtc.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_wdt.h)(0x5D6E27E9)
-F (Libraries\SWM320_StdPeriph_Driver\SWM320_lcd.c)(0x5D6E27E9)(--c99 -c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections -I applications -I . -I drivers -I Libraries\CMSIS\CoreSupport -I Libraries\CMSIS\DeviceSupport -I Libraries\SWM320_StdPeriph_Driver -I ..\..\include -I ..\..\libcpu\arm\cortex-m4 -I ..\..\libcpu\arm\common -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\finsh-I.\RTE\_rt-thread-IC:\Users\llizh\AppData\Local\Arm\Packs\Synwit\SWM32_DFP\1.9.1\CSL\SWM320\CMSIS\DeviceSupport-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527"-o .\build\keil\obj\swm320_lcd.o --depend .\build\keil\obj\swm320_lcd.d)
-I (Libraries\CMSIS\DeviceSupport\SWM320.h)(0x5D6E27E9)
-I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
-I (Libraries\CMSIS\CoreSupport\core_cm4.h)(0x5D6E27E9)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
-I (Libraries\CMSIS\CoreSupport\core_cmInstr.h)(0x5D6E27E9)
-I (Libraries\CMSIS\CoreSupport\core_cmFunc.h)(0x5D6E27E9)
-I (Libraries\CMSIS\CoreSupport\core_cmSimd.h)(0x5D6E27E9)
-I (Libraries\CMSIS\DeviceSupport\system_SWM320.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_port.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_gpio.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_exti.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_timr.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_uart.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_spi.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_i2c.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_pwm.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_adc.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_dma.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_lcd.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_can.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_sdio.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_flash.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_norflash.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_sdram.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_crc.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_rtc.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_wdt.h)(0x5D6E27E9)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599ECD2C)
-F (Libraries\SWM320_StdPeriph_Driver\SWM320_norflash.c)(0x5D6E27E9)(--c99 -c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections -I applications -I . -I drivers -I Libraries\CMSIS\CoreSupport -I Libraries\CMSIS\DeviceSupport -I Libraries\SWM320_StdPeriph_Driver -I ..\..\include -I ..\..\libcpu\arm\cortex-m4 -I ..\..\libcpu\arm\common -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\finsh-I.\RTE\_rt-thread-IC:\Users\llizh\AppData\Local\Arm\Packs\Synwit\SWM32_DFP\1.9.1\CSL\SWM320\CMSIS\DeviceSupport-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527"-o .\build\keil\obj\swm320_norflash.o --depend .\build\keil\obj\swm320_norflash.d)
-I (Libraries\CMSIS\DeviceSupport\SWM320.h)(0x5D6E27E9)
-I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
-I (Libraries\CMSIS\CoreSupport\core_cm4.h)(0x5D6E27E9)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
-I (Libraries\CMSIS\CoreSupport\core_cmInstr.h)(0x5D6E27E9)
-I (Libraries\CMSIS\CoreSupport\core_cmFunc.h)(0x5D6E27E9)
-I (Libraries\CMSIS\CoreSupport\core_cmSimd.h)(0x5D6E27E9)
-I (Libraries\CMSIS\DeviceSupport\system_SWM320.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_port.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_gpio.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_exti.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_timr.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_uart.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_spi.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_i2c.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_pwm.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_adc.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_dma.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_lcd.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_can.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_sdio.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_flash.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_norflash.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_sdram.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_crc.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_rtc.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_wdt.h)(0x5D6E27E9)
-F (Libraries\SWM320_StdPeriph_Driver\SWM320_port.c)(0x5D6E27E9)(--c99 -c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections -I applications -I . -I drivers -I Libraries\CMSIS\CoreSupport -I Libraries\CMSIS\DeviceSupport -I Libraries\SWM320_StdPeriph_Driver -I ..\..\include -I ..\..\libcpu\arm\cortex-m4 -I ..\..\libcpu\arm\common -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\finsh-I.\RTE\_rt-thread-IC:\Users\llizh\AppData\Local\Arm\Packs\Synwit\SWM32_DFP\1.9.1\CSL\SWM320\CMSIS\DeviceSupport-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527"-o .\build\keil\obj\swm320_port.o --depend .\build\keil\obj\swm320_port.d)
-I (Libraries\CMSIS\DeviceSupport\SWM320.h)(0x5D6E27E9)
-I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
-I (Libraries\CMSIS\CoreSupport\core_cm4.h)(0x5D6E27E9)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
-I (Libraries\CMSIS\CoreSupport\core_cmInstr.h)(0x5D6E27E9)
-I (Libraries\CMSIS\CoreSupport\core_cmFunc.h)(0x5D6E27E9)
-I (Libraries\CMSIS\CoreSupport\core_cmSimd.h)(0x5D6E27E9)
-I (Libraries\CMSIS\DeviceSupport\system_SWM320.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_port.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_gpio.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_exti.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_timr.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_uart.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_spi.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_i2c.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_pwm.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_adc.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_dma.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_lcd.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_can.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_sdio.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_flash.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_norflash.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_sdram.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_crc.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_rtc.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_wdt.h)(0x5D6E27E9)
-F (Libraries\SWM320_StdPeriph_Driver\SWM320_pwm.c)(0x5D6E27E9)(--c99 -c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections -I applications -I . -I drivers -I Libraries\CMSIS\CoreSupport -I Libraries\CMSIS\DeviceSupport -I Libraries\SWM320_StdPeriph_Driver -I ..\..\include -I ..\..\libcpu\arm\cortex-m4 -I ..\..\libcpu\arm\common -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\finsh-I.\RTE\_rt-thread-IC:\Users\llizh\AppData\Local\Arm\Packs\Synwit\SWM32_DFP\1.9.1\CSL\SWM320\CMSIS\DeviceSupport-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527"-o .\build\keil\obj\swm320_pwm.o --depend .\build\keil\obj\swm320_pwm.d)
-I (Libraries\CMSIS\DeviceSupport\SWM320.h)(0x5D6E27E9)
-I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
-I (Libraries\CMSIS\CoreSupport\core_cm4.h)(0x5D6E27E9)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
-I (Libraries\CMSIS\CoreSupport\core_cmInstr.h)(0x5D6E27E9)
-I (Libraries\CMSIS\CoreSupport\core_cmFunc.h)(0x5D6E27E9)
-I (Libraries\CMSIS\CoreSupport\core_cmSimd.h)(0x5D6E27E9)
-I (Libraries\CMSIS\DeviceSupport\system_SWM320.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_port.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_gpio.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_exti.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_timr.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_uart.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_spi.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_i2c.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_pwm.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_adc.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_dma.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_lcd.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_can.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_sdio.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_flash.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_norflash.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_sdram.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_crc.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_rtc.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_wdt.h)(0x5D6E27E9)
-F (Libraries\SWM320_StdPeriph_Driver\SWM320_rtc.c)(0x5D6E27E9)(--c99 -c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections -I applications -I . -I drivers -I Libraries\CMSIS\CoreSupport -I Libraries\CMSIS\DeviceSupport -I Libraries\SWM320_StdPeriph_Driver -I ..\..\include -I ..\..\libcpu\arm\cortex-m4 -I ..\..\libcpu\arm\common -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\finsh-I.\RTE\_rt-thread-IC:\Users\llizh\AppData\Local\Arm\Packs\Synwit\SWM32_DFP\1.9.1\CSL\SWM320\CMSIS\DeviceSupport-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527"-o .\build\keil\obj\swm320_rtc.o --depend .\build\keil\obj\swm320_rtc.d)
-I (Libraries\CMSIS\DeviceSupport\SWM320.h)(0x5D6E27E9)
-I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
-I (Libraries\CMSIS\CoreSupport\core_cm4.h)(0x5D6E27E9)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
-I (Libraries\CMSIS\CoreSupport\core_cmInstr.h)(0x5D6E27E9)
-I (Libraries\CMSIS\CoreSupport\core_cmFunc.h)(0x5D6E27E9)
-I (Libraries\CMSIS\CoreSupport\core_cmSimd.h)(0x5D6E27E9)
-I (Libraries\CMSIS\DeviceSupport\system_SWM320.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_port.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_gpio.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_exti.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_timr.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_uart.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_spi.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_i2c.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_pwm.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_adc.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_dma.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_lcd.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_can.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_sdio.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_flash.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_norflash.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_sdram.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_crc.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_rtc.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_wdt.h)(0x5D6E27E9)
-F (Libraries\SWM320_StdPeriph_Driver\SWM320_sdio.c)(0x5D6E27E9)(--c99 -c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections -I applications -I . -I drivers -I Libraries\CMSIS\CoreSupport -I Libraries\CMSIS\DeviceSupport -I Libraries\SWM320_StdPeriph_Driver -I ..\..\include -I ..\..\libcpu\arm\cortex-m4 -I ..\..\libcpu\arm\common -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\finsh-I.\RTE\_rt-thread-IC:\Users\llizh\AppData\Local\Arm\Packs\Synwit\SWM32_DFP\1.9.1\CSL\SWM320\CMSIS\DeviceSupport-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527"-o .\build\keil\obj\swm320_sdio.o --depend .\build\keil\obj\swm320_sdio.d)
-I (Libraries\CMSIS\DeviceSupport\SWM320.h)(0x5D6E27E9)
-I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
-I (Libraries\CMSIS\CoreSupport\core_cm4.h)(0x5D6E27E9)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
-I (Libraries\CMSIS\CoreSupport\core_cmInstr.h)(0x5D6E27E9)
-I (Libraries\CMSIS\CoreSupport\core_cmFunc.h)(0x5D6E27E9)
-I (Libraries\CMSIS\CoreSupport\core_cmSimd.h)(0x5D6E27E9)
-I (Libraries\CMSIS\DeviceSupport\system_SWM320.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_port.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_gpio.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_exti.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_timr.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_uart.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_spi.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_i2c.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_pwm.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_adc.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_dma.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_lcd.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_can.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_sdio.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_flash.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_norflash.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_sdram.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_crc.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_rtc.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_wdt.h)(0x5D6E27E9)
-F (Libraries\SWM320_StdPeriph_Driver\SWM320_sdram.c)(0x5D6E27E9)(--c99 -c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections -I applications -I . -I drivers -I Libraries\CMSIS\CoreSupport -I Libraries\CMSIS\DeviceSupport -I Libraries\SWM320_StdPeriph_Driver -I ..\..\include -I ..\..\libcpu\arm\cortex-m4 -I ..\..\libcpu\arm\common -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\finsh-I.\RTE\_rt-thread-IC:\Users\llizh\AppData\Local\Arm\Packs\Synwit\SWM32_DFP\1.9.1\CSL\SWM320\CMSIS\DeviceSupport-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527"-o .\build\keil\obj\swm320_sdram.o --depend .\build\keil\obj\swm320_sdram.d)
-I (Libraries\CMSIS\DeviceSupport\SWM320.h)(0x5D6E27E9)
-I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
-I (Libraries\CMSIS\CoreSupport\core_cm4.h)(0x5D6E27E9)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
-I (Libraries\CMSIS\CoreSupport\core_cmInstr.h)(0x5D6E27E9)
-I (Libraries\CMSIS\CoreSupport\core_cmFunc.h)(0x5D6E27E9)
-I (Libraries\CMSIS\CoreSupport\core_cmSimd.h)(0x5D6E27E9)
-I (Libraries\CMSIS\DeviceSupport\system_SWM320.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_port.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_gpio.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_exti.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_timr.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_uart.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_spi.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_i2c.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_pwm.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_adc.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_dma.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_lcd.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_can.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_sdio.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_flash.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_norflash.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_sdram.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_crc.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_rtc.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_wdt.h)(0x5D6E27E9)
-F (Libraries\SWM320_StdPeriph_Driver\SWM320_spi.c)(0x5D6E27E9)(--c99 -c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections -I applications -I . -I drivers -I Libraries\CMSIS\CoreSupport -I Libraries\CMSIS\DeviceSupport -I Libraries\SWM320_StdPeriph_Driver -I ..\..\include -I ..\..\libcpu\arm\cortex-m4 -I ..\..\libcpu\arm\common -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\finsh-I.\RTE\_rt-thread-IC:\Users\llizh\AppData\Local\Arm\Packs\Synwit\SWM32_DFP\1.9.1\CSL\SWM320\CMSIS\DeviceSupport-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527"-o .\build\keil\obj\swm320_spi.o --depend .\build\keil\obj\swm320_spi.d)
-I (Libraries\CMSIS\DeviceSupport\SWM320.h)(0x5D6E27E9)
-I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
-I (Libraries\CMSIS\CoreSupport\core_cm4.h)(0x5D6E27E9)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
-I (Libraries\CMSIS\CoreSupport\core_cmInstr.h)(0x5D6E27E9)
-I (Libraries\CMSIS\CoreSupport\core_cmFunc.h)(0x5D6E27E9)
-I (Libraries\CMSIS\CoreSupport\core_cmSimd.h)(0x5D6E27E9)
-I (Libraries\CMSIS\DeviceSupport\system_SWM320.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_port.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_gpio.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_exti.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_timr.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_uart.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_spi.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_i2c.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_pwm.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_adc.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_dma.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_lcd.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_can.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_sdio.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_flash.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_norflash.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_sdram.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_crc.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_rtc.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_wdt.h)(0x5D6E27E9)
-F (Libraries\SWM320_StdPeriph_Driver\SWM320_timr.c)(0x5D6E27E9)(--c99 -c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections -I applications -I . -I drivers -I Libraries\CMSIS\CoreSupport -I Libraries\CMSIS\DeviceSupport -I Libraries\SWM320_StdPeriph_Driver -I ..\..\include -I ..\..\libcpu\arm\cortex-m4 -I ..\..\libcpu\arm\common -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\finsh-I.\RTE\_rt-thread-IC:\Users\llizh\AppData\Local\Arm\Packs\Synwit\SWM32_DFP\1.9.1\CSL\SWM320\CMSIS\DeviceSupport-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527"-o .\build\keil\obj\swm320_timr.o --depend .\build\keil\obj\swm320_timr.d)
-I (Libraries\CMSIS\DeviceSupport\SWM320.h)(0x5D6E27E9)
-I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
-I (Libraries\CMSIS\CoreSupport\core_cm4.h)(0x5D6E27E9)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
-I (Libraries\CMSIS\CoreSupport\core_cmInstr.h)(0x5D6E27E9)
-I (Libraries\CMSIS\CoreSupport\core_cmFunc.h)(0x5D6E27E9)
-I (Libraries\CMSIS\CoreSupport\core_cmSimd.h)(0x5D6E27E9)
-I (Libraries\CMSIS\DeviceSupport\system_SWM320.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_port.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_gpio.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_exti.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_timr.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_uart.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_spi.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_i2c.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_pwm.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_adc.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_dma.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_lcd.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_can.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_sdio.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_flash.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_norflash.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_sdram.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_crc.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_rtc.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_wdt.h)(0x5D6E27E9)
-F (Libraries\SWM320_StdPeriph_Driver\SWM320_uart.c)(0x5D6E27E9)(--c99 -c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections -I applications -I . -I drivers -I Libraries\CMSIS\CoreSupport -I Libraries\CMSIS\DeviceSupport -I Libraries\SWM320_StdPeriph_Driver -I ..\..\include -I ..\..\libcpu\arm\cortex-m4 -I ..\..\libcpu\arm\common -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\finsh-I.\RTE\_rt-thread-IC:\Users\llizh\AppData\Local\Arm\Packs\Synwit\SWM32_DFP\1.9.1\CSL\SWM320\CMSIS\DeviceSupport-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527"-o .\build\keil\obj\swm320_uart.o --depend .\build\keil\obj\swm320_uart.d)
-I (Libraries\CMSIS\DeviceSupport\SWM320.h)(0x5D6E27E9)
-I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
-I (Libraries\CMSIS\CoreSupport\core_cm4.h)(0x5D6E27E9)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
-I (Libraries\CMSIS\CoreSupport\core_cmInstr.h)(0x5D6E27E9)
-I (Libraries\CMSIS\CoreSupport\core_cmFunc.h)(0x5D6E27E9)
-I (Libraries\CMSIS\CoreSupport\core_cmSimd.h)(0x5D6E27E9)
-I (Libraries\CMSIS\DeviceSupport\system_SWM320.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_port.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_gpio.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_exti.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_timr.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_uart.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_spi.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_i2c.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_pwm.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_adc.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_dma.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_lcd.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_can.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_sdio.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_flash.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_norflash.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_sdram.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_crc.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_rtc.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_wdt.h)(0x5D6E27E9)
-F (Libraries\SWM320_StdPeriph_Driver\SWM320_wdt.c)(0x5D6E27E9)(--c99 -c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections -I applications -I . -I drivers -I Libraries\CMSIS\CoreSupport -I Libraries\CMSIS\DeviceSupport -I Libraries\SWM320_StdPeriph_Driver -I ..\..\include -I ..\..\libcpu\arm\cortex-m4 -I ..\..\libcpu\arm\common -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\finsh-I.\RTE\_rt-thread-IC:\Users\llizh\AppData\Local\Arm\Packs\Synwit\SWM32_DFP\1.9.1\CSL\SWM320\CMSIS\DeviceSupport-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527"-o .\build\keil\obj\swm320_wdt.o --depend .\build\keil\obj\swm320_wdt.d)
-I (Libraries\CMSIS\DeviceSupport\SWM320.h)(0x5D6E27E9)
-I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
-I (Libraries\CMSIS\CoreSupport\core_cm4.h)(0x5D6E27E9)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
-I (Libraries\CMSIS\CoreSupport\core_cmInstr.h)(0x5D6E27E9)
-I (Libraries\CMSIS\CoreSupport\core_cmFunc.h)(0x5D6E27E9)
-I (Libraries\CMSIS\CoreSupport\core_cmSimd.h)(0x5D6E27E9)
-I (Libraries\CMSIS\DeviceSupport\system_SWM320.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_port.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_gpio.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_exti.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_timr.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_uart.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_spi.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_i2c.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_pwm.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_adc.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_dma.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_lcd.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_can.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_sdio.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_flash.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_norflash.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_sdram.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_crc.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_rtc.h)(0x5D6E27E9)
-I (Libraries\SWM320_StdPeriph_Driver\SWM320_wdt.h)(0x5D6E27E9)
-F (Libraries\CMSIS\DeviceSupport\startup\arm\startup_SWM320.s)(0x5D6E27E9)(--cpu Cortex-M4 -g --apcs=interwork -I.\RTE\_rt-thread-IC:\Users\llizh\AppData\Local\Arm\Packs\Synwit\SWM32_DFP\1.9.1\CSL\SWM320\CMSIS\DeviceSupport-IC:\Keil_v5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 527"--list .\build\startup_swm320.lst --xref -o .\build\keil\obj\startup_swm320.o --depend .\build\keil\obj\startup_swm320.d)
-F (..\..\src\clock.c)(0x5D6E27EF)(--c99 -c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections -I applications -I . -I drivers -I Libraries\CMSIS\CoreSupport -I Libraries\CMSIS\DeviceSupport -I Libraries\SWM320_StdPeriph_Driver -I ..\..\include -I ..\..\libcpu\arm\cortex-m4 -I ..\..\libcpu\arm\common -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\finsh-I.\RTE\_rt-thread-IC:\Users\llizh\AppData\Local\Arm\Packs\Synwit\SWM32_DFP\1.9.1\CSL\SWM320\CMSIS\DeviceSupport-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527"-o .\build\keil\obj\clock.o --depend .\build\keil\obj\clock.d)
-I (..\..\include\rthw.h)(0x5D6E27EE)
-I (..\..\include\rtthread.h)(0x5D6E27EE)
-I (.\rtconfig.h)(0x5D6E27E9)
-I (..\..\include\rtdebug.h)(0x5D6E27EE)
-I (..\..\include\rtdef.h)(0x5D6E27EE)
-I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x599ECD2A)
-I (..\..\include\rtlibc.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_stat.h)(0x5D6E27EE)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
-I (C:\Keil_v5\ARM\ARMCC\include\time.h)(0x599ECD2E)
-I (..\..\include\libc/libc_errno.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_fcntl.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_ioctl.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_dirent.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_signal.h)(0x5D6E27EE)
-I (C:\Keil_v5\ARM\ARMCC\include\signal.h)(0x599ECD2C)
-I (..\..\include\libc/libc_fdset.h)(0x5D6E27EE)
-I (..\..\include\rtservice.h)(0x5D6E27EE)
-I (..\..\include\rtm.h)(0x5D6E27EE)
-I (..\..\components\finsh\finsh_api.h)(0x5D6E27ED)
-F (..\..\src\components.c)(0x5D6E27EF)(--c99 -c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections -I applications -I . -I drivers -I Libraries\CMSIS\CoreSupport -I Libraries\CMSIS\DeviceSupport -I Libraries\SWM320_StdPeriph_Driver -I ..\..\include -I ..\..\libcpu\arm\cortex-m4 -I ..\..\libcpu\arm\common -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\finsh-I.\RTE\_rt-thread-IC:\Users\llizh\AppData\Local\Arm\Packs\Synwit\SWM32_DFP\1.9.1\CSL\SWM320\CMSIS\DeviceSupport-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527"-o .\build\keil\obj\components.o --depend .\build\keil\obj\components.d)
-I (..\..\include\rthw.h)(0x5D6E27EE)
-I (..\..\include\rtthread.h)(0x5D6E27EE)
-I (.\rtconfig.h)(0x5D6E27E9)
-I (..\..\include\rtdebug.h)(0x5D6E27EE)
-I (..\..\include\rtdef.h)(0x5D6E27EE)
-I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x599ECD2A)
-I (..\..\include\rtlibc.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_stat.h)(0x5D6E27EE)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
-I (C:\Keil_v5\ARM\ARMCC\include\time.h)(0x599ECD2E)
-I (..\..\include\libc/libc_errno.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_fcntl.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_ioctl.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_dirent.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_signal.h)(0x5D6E27EE)
-I (C:\Keil_v5\ARM\ARMCC\include\signal.h)(0x599ECD2C)
-I (..\..\include\libc/libc_fdset.h)(0x5D6E27EE)
-I (..\..\include\rtservice.h)(0x5D6E27EE)
-I (..\..\include\rtm.h)(0x5D6E27EE)
-I (..\..\components\finsh\finsh_api.h)(0x5D6E27ED)
-F (..\..\src\cpu.c)(0x5D6E27EF)(--c99 -c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections -I applications -I . -I drivers -I Libraries\CMSIS\CoreSupport -I Libraries\CMSIS\DeviceSupport -I Libraries\SWM320_StdPeriph_Driver -I ..\..\include -I ..\..\libcpu\arm\cortex-m4 -I ..\..\libcpu\arm\common -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\finsh-I.\RTE\_rt-thread-IC:\Users\llizh\AppData\Local\Arm\Packs\Synwit\SWM32_DFP\1.9.1\CSL\SWM320\CMSIS\DeviceSupport-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527"-o .\build\keil\obj\cpu.o --depend .\build\keil\obj\cpu.d)
-I (..\..\include\rtthread.h)(0x5D6E27EE)
-I (.\rtconfig.h)(0x5D6E27E9)
-I (..\..\include\rtdebug.h)(0x5D6E27EE)
-I (..\..\include\rtdef.h)(0x5D6E27EE)
-I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x599ECD2A)
-I (..\..\include\rtlibc.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_stat.h)(0x5D6E27EE)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
-I (C:\Keil_v5\ARM\ARMCC\include\time.h)(0x599ECD2E)
-I (..\..\include\libc/libc_errno.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_fcntl.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_ioctl.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_dirent.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_signal.h)(0x5D6E27EE)
-I (C:\Keil_v5\ARM\ARMCC\include\signal.h)(0x599ECD2C)
-I (..\..\include\libc/libc_fdset.h)(0x5D6E27EE)
-I (..\..\include\rtservice.h)(0x5D6E27EE)
-I (..\..\include\rtm.h)(0x5D6E27EE)
-I (..\..\components\finsh\finsh_api.h)(0x5D6E27ED)
-I (..\..\include\rthw.h)(0x5D6E27EE)
-F (..\..\src\device.c)(0x5D6E27EF)(--c99 -c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections -I applications -I . -I drivers -I Libraries\CMSIS\CoreSupport -I Libraries\CMSIS\DeviceSupport -I Libraries\SWM320_StdPeriph_Driver -I ..\..\include -I ..\..\libcpu\arm\cortex-m4 -I ..\..\libcpu\arm\common -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\finsh-I.\RTE\_rt-thread-IC:\Users\llizh\AppData\Local\Arm\Packs\Synwit\SWM32_DFP\1.9.1\CSL\SWM320\CMSIS\DeviceSupport-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527"-o .\build\keil\obj\device.o --depend .\build\keil\obj\device.d)
-I (..\..\include\rtthread.h)(0x5D6E27EE)
-I (.\rtconfig.h)(0x5D6E27E9)
-I (..\..\include\rtdebug.h)(0x5D6E27EE)
-I (..\..\include\rtdef.h)(0x5D6E27EE)
-I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x599ECD2A)
-I (..\..\include\rtlibc.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_stat.h)(0x5D6E27EE)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
-I (C:\Keil_v5\ARM\ARMCC\include\time.h)(0x599ECD2E)
-I (..\..\include\libc/libc_errno.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_fcntl.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_ioctl.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_dirent.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_signal.h)(0x5D6E27EE)
-I (C:\Keil_v5\ARM\ARMCC\include\signal.h)(0x599ECD2C)
-I (..\..\include\libc/libc_fdset.h)(0x5D6E27EE)
-I (..\..\include\rtservice.h)(0x5D6E27EE)
-I (..\..\include\rtm.h)(0x5D6E27EE)
-I (..\..\components\finsh\finsh_api.h)(0x5D6E27ED)
-F (..\..\src\idle.c)(0x5D6E27EF)(--c99 -c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections -I applications -I . -I drivers -I Libraries\CMSIS\CoreSupport -I Libraries\CMSIS\DeviceSupport -I Libraries\SWM320_StdPeriph_Driver -I ..\..\include -I ..\..\libcpu\arm\cortex-m4 -I ..\..\libcpu\arm\common -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\finsh-I.\RTE\_rt-thread-IC:\Users\llizh\AppData\Local\Arm\Packs\Synwit\SWM32_DFP\1.9.1\CSL\SWM320\CMSIS\DeviceSupport-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527"-o .\build\keil\obj\idle.o --depend .\build\keil\obj\idle.d)
-I (..\..\include\rthw.h)(0x5D6E27EE)
-I (..\..\include\rtthread.h)(0x5D6E27EE)
-I (.\rtconfig.h)(0x5D6E27E9)
-I (..\..\include\rtdebug.h)(0x5D6E27EE)
-I (..\..\include\rtdef.h)(0x5D6E27EE)
-I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x599ECD2A)
-I (..\..\include\rtlibc.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_stat.h)(0x5D6E27EE)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
-I (C:\Keil_v5\ARM\ARMCC\include\time.h)(0x599ECD2E)
-I (..\..\include\libc/libc_errno.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_fcntl.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_ioctl.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_dirent.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_signal.h)(0x5D6E27EE)
-I (C:\Keil_v5\ARM\ARMCC\include\signal.h)(0x599ECD2C)
-I (..\..\include\libc/libc_fdset.h)(0x5D6E27EE)
-I (..\..\include\rtservice.h)(0x5D6E27EE)
-I (..\..\include\rtm.h)(0x5D6E27EE)
-I (..\..\components\finsh\finsh_api.h)(0x5D6E27ED)
-F (..\..\src\ipc.c)(0x5D6E27EF)(--c99 -c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections -I applications -I . -I drivers -I Libraries\CMSIS\CoreSupport -I Libraries\CMSIS\DeviceSupport -I Libraries\SWM320_StdPeriph_Driver -I ..\..\include -I ..\..\libcpu\arm\cortex-m4 -I ..\..\libcpu\arm\common -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\finsh-I.\RTE\_rt-thread-IC:\Users\llizh\AppData\Local\Arm\Packs\Synwit\SWM32_DFP\1.9.1\CSL\SWM320\CMSIS\DeviceSupport-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527"-o .\build\keil\obj\ipc.o --depend .\build\keil\obj\ipc.d)
-I (..\..\include\rtthread.h)(0x5D6E27EE)
-I (.\rtconfig.h)(0x5D6E27E9)
-I (..\..\include\rtdebug.h)(0x5D6E27EE)
-I (..\..\include\rtdef.h)(0x5D6E27EE)
-I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x599ECD2A)
-I (..\..\include\rtlibc.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_stat.h)(0x5D6E27EE)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
-I (C:\Keil_v5\ARM\ARMCC\include\time.h)(0x599ECD2E)
-I (..\..\include\libc/libc_errno.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_fcntl.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_ioctl.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_dirent.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_signal.h)(0x5D6E27EE)
-I (C:\Keil_v5\ARM\ARMCC\include\signal.h)(0x599ECD2C)
-I (..\..\include\libc/libc_fdset.h)(0x5D6E27EE)
-I (..\..\include\rtservice.h)(0x5D6E27EE)
-I (..\..\include\rtm.h)(0x5D6E27EE)
-I (..\..\components\finsh\finsh_api.h)(0x5D6E27ED)
-I (..\..\include\rthw.h)(0x5D6E27EE)
-F (..\..\src\irq.c)(0x5D6E27EF)(--c99 -c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections -I applications -I . -I drivers -I Libraries\CMSIS\CoreSupport -I Libraries\CMSIS\DeviceSupport -I Libraries\SWM320_StdPeriph_Driver -I ..\..\include -I ..\..\libcpu\arm\cortex-m4 -I ..\..\libcpu\arm\common -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\finsh-I.\RTE\_rt-thread-IC:\Users\llizh\AppData\Local\Arm\Packs\Synwit\SWM32_DFP\1.9.1\CSL\SWM320\CMSIS\DeviceSupport-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527"-o .\build\keil\obj\irq.o --depend .\build\keil\obj\irq.d)
-I (..\..\include\rthw.h)(0x5D6E27EE)
-I (..\..\include\rtthread.h)(0x5D6E27EE)
-I (.\rtconfig.h)(0x5D6E27E9)
-I (..\..\include\rtdebug.h)(0x5D6E27EE)
-I (..\..\include\rtdef.h)(0x5D6E27EE)
-I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x599ECD2A)
-I (..\..\include\rtlibc.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_stat.h)(0x5D6E27EE)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
-I (C:\Keil_v5\ARM\ARMCC\include\time.h)(0x599ECD2E)
-I (..\..\include\libc/libc_errno.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_fcntl.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_ioctl.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_dirent.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_signal.h)(0x5D6E27EE)
-I (C:\Keil_v5\ARM\ARMCC\include\signal.h)(0x599ECD2C)
-I (..\..\include\libc/libc_fdset.h)(0x5D6E27EE)
-I (..\..\include\rtservice.h)(0x5D6E27EE)
-I (..\..\include\rtm.h)(0x5D6E27EE)
-I (..\..\components\finsh\finsh_api.h)(0x5D6E27ED)
-F (..\..\src\kservice.c)(0x5D6E27EF)(--c99 -c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections -I applications -I . -I drivers -I Libraries\CMSIS\CoreSupport -I Libraries\CMSIS\DeviceSupport -I Libraries\SWM320_StdPeriph_Driver -I ..\..\include -I ..\..\libcpu\arm\cortex-m4 -I ..\..\libcpu\arm\common -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\finsh-I.\RTE\_rt-thread-IC:\Users\llizh\AppData\Local\Arm\Packs\Synwit\SWM32_DFP\1.9.1\CSL\SWM320\CMSIS\DeviceSupport-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527"-o .\build\keil\obj\kservice.o --depend .\build\keil\obj\kservice.d)
-I (..\..\include\rtthread.h)(0x5D6E27EE)
-I (.\rtconfig.h)(0x5D6E27E9)
-I (..\..\include\rtdebug.h)(0x5D6E27EE)
-I (..\..\include\rtdef.h)(0x5D6E27EE)
-I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x599ECD2A)
-I (..\..\include\rtlibc.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_stat.h)(0x5D6E27EE)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
-I (C:\Keil_v5\ARM\ARMCC\include\time.h)(0x599ECD2E)
-I (..\..\include\libc/libc_errno.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_fcntl.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_ioctl.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_dirent.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_signal.h)(0x5D6E27EE)
-I (C:\Keil_v5\ARM\ARMCC\include\signal.h)(0x599ECD2C)
-I (..\..\include\libc/libc_fdset.h)(0x5D6E27EE)
-I (..\..\include\rtservice.h)(0x5D6E27EE)
-I (..\..\include\rtm.h)(0x5D6E27EE)
-I (..\..\components\finsh\finsh_api.h)(0x5D6E27ED)
-I (..\..\include\rthw.h)(0x5D6E27EE)
-F (..\..\src\mem.c)(0x5D6E27EF)(--c99 -c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections -I applications -I . -I drivers -I Libraries\CMSIS\CoreSupport -I Libraries\CMSIS\DeviceSupport -I Libraries\SWM320_StdPeriph_Driver -I ..\..\include -I ..\..\libcpu\arm\cortex-m4 -I ..\..\libcpu\arm\common -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\finsh-I.\RTE\_rt-thread-IC:\Users\llizh\AppData\Local\Arm\Packs\Synwit\SWM32_DFP\1.9.1\CSL\SWM320\CMSIS\DeviceSupport-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527"-o .\build\keil\obj\mem.o --depend .\build\keil\obj\mem.d)
-I (..\..\include\rthw.h)(0x5D6E27EE)
-I (..\..\include\rtthread.h)(0x5D6E27EE)
-I (.\rtconfig.h)(0x5D6E27E9)
-I (..\..\include\rtdebug.h)(0x5D6E27EE)
-I (..\..\include\rtdef.h)(0x5D6E27EE)
-I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x599ECD2A)
-I (..\..\include\rtlibc.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_stat.h)(0x5D6E27EE)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
-I (C:\Keil_v5\ARM\ARMCC\include\time.h)(0x599ECD2E)
-I (..\..\include\libc/libc_errno.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_fcntl.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_ioctl.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_dirent.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_signal.h)(0x5D6E27EE)
-I (C:\Keil_v5\ARM\ARMCC\include\signal.h)(0x599ECD2C)
-I (..\..\include\libc/libc_fdset.h)(0x5D6E27EE)
-I (..\..\include\rtservice.h)(0x5D6E27EE)
-I (..\..\include\rtm.h)(0x5D6E27EE)
-I (..\..\components\finsh\finsh_api.h)(0x5D6E27ED)
-I (..\..\components\finsh\finsh.h)(0x5D6E27ED)
-I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
-I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x599ECD2E)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599ECD2C)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599ECD2C)
-F (..\..\src\memheap.c)(0x5D6E27EF)(--c99 -c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections -I applications -I . -I drivers -I Libraries\CMSIS\CoreSupport -I Libraries\CMSIS\DeviceSupport -I Libraries\SWM320_StdPeriph_Driver -I ..\..\include -I ..\..\libcpu\arm\cortex-m4 -I ..\..\libcpu\arm\common -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\finsh-I.\RTE\_rt-thread-IC:\Users\llizh\AppData\Local\Arm\Packs\Synwit\SWM32_DFP\1.9.1\CSL\SWM320\CMSIS\DeviceSupport-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527"-o .\build\keil\obj\memheap.o --depend .\build\keil\obj\memheap.d)
-I (..\..\include\rthw.h)(0x5D6E27EE)
-I (..\..\include\rtthread.h)(0x5D6E27EE)
-I (.\rtconfig.h)(0x5D6E27E9)
-I (..\..\include\rtdebug.h)(0x5D6E27EE)
-I (..\..\include\rtdef.h)(0x5D6E27EE)
-I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x599ECD2A)
-I (..\..\include\rtlibc.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_stat.h)(0x5D6E27EE)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
-I (C:\Keil_v5\ARM\ARMCC\include\time.h)(0x599ECD2E)
-I (..\..\include\libc/libc_errno.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_fcntl.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_ioctl.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_dirent.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_signal.h)(0x5D6E27EE)
-I (C:\Keil_v5\ARM\ARMCC\include\signal.h)(0x599ECD2C)
-I (..\..\include\libc/libc_fdset.h)(0x5D6E27EE)
-I (..\..\include\rtservice.h)(0x5D6E27EE)
-I (..\..\include\rtm.h)(0x5D6E27EE)
-I (..\..\components\finsh\finsh_api.h)(0x5D6E27ED)
-F (..\..\src\mempool.c)(0x5D6E27EF)(--c99 -c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections -I applications -I . -I drivers -I Libraries\CMSIS\CoreSupport -I Libraries\CMSIS\DeviceSupport -I Libraries\SWM320_StdPeriph_Driver -I ..\..\include -I ..\..\libcpu\arm\cortex-m4 -I ..\..\libcpu\arm\common -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\finsh-I.\RTE\_rt-thread-IC:\Users\llizh\AppData\Local\Arm\Packs\Synwit\SWM32_DFP\1.9.1\CSL\SWM320\CMSIS\DeviceSupport-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527"-o .\build\keil\obj\mempool.o --depend .\build\keil\obj\mempool.d)
-I (..\..\include\rthw.h)(0x5D6E27EE)
-I (..\..\include\rtthread.h)(0x5D6E27EE)
-I (.\rtconfig.h)(0x5D6E27E9)
-I (..\..\include\rtdebug.h)(0x5D6E27EE)
-I (..\..\include\rtdef.h)(0x5D6E27EE)
-I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x599ECD2A)
-I (..\..\include\rtlibc.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_stat.h)(0x5D6E27EE)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
-I (C:\Keil_v5\ARM\ARMCC\include\time.h)(0x599ECD2E)
-I (..\..\include\libc/libc_errno.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_fcntl.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_ioctl.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_dirent.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_signal.h)(0x5D6E27EE)
-I (C:\Keil_v5\ARM\ARMCC\include\signal.h)(0x599ECD2C)
-I (..\..\include\libc/libc_fdset.h)(0x5D6E27EE)
-I (..\..\include\rtservice.h)(0x5D6E27EE)
-I (..\..\include\rtm.h)(0x5D6E27EE)
-I (..\..\components\finsh\finsh_api.h)(0x5D6E27ED)
-F (..\..\src\object.c)(0x5D6E27EF)(--c99 -c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections -I applications -I . -I drivers -I Libraries\CMSIS\CoreSupport -I Libraries\CMSIS\DeviceSupport -I Libraries\SWM320_StdPeriph_Driver -I ..\..\include -I ..\..\libcpu\arm\cortex-m4 -I ..\..\libcpu\arm\common -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\finsh-I.\RTE\_rt-thread-IC:\Users\llizh\AppData\Local\Arm\Packs\Synwit\SWM32_DFP\1.9.1\CSL\SWM320\CMSIS\DeviceSupport-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527"-o .\build\keil\obj\object.o --depend .\build\keil\obj\object.d)
-I (..\..\include\rtthread.h)(0x5D6E27EE)
-I (.\rtconfig.h)(0x5D6E27E9)
-I (..\..\include\rtdebug.h)(0x5D6E27EE)
-I (..\..\include\rtdef.h)(0x5D6E27EE)
-I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x599ECD2A)
-I (..\..\include\rtlibc.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_stat.h)(0x5D6E27EE)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
-I (C:\Keil_v5\ARM\ARMCC\include\time.h)(0x599ECD2E)
-I (..\..\include\libc/libc_errno.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_fcntl.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_ioctl.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_dirent.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_signal.h)(0x5D6E27EE)
-I (C:\Keil_v5\ARM\ARMCC\include\signal.h)(0x599ECD2C)
-I (..\..\include\libc/libc_fdset.h)(0x5D6E27EE)
-I (..\..\include\rtservice.h)(0x5D6E27EE)
-I (..\..\include\rtm.h)(0x5D6E27EE)
-I (..\..\components\finsh\finsh_api.h)(0x5D6E27ED)
-I (..\..\include\rthw.h)(0x5D6E27EE)
-F (..\..\src\scheduler.c)(0x5D6E27EF)(--c99 -c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections -I applications -I . -I drivers -I Libraries\CMSIS\CoreSupport -I Libraries\CMSIS\DeviceSupport -I Libraries\SWM320_StdPeriph_Driver -I ..\..\include -I ..\..\libcpu\arm\cortex-m4 -I ..\..\libcpu\arm\common -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\finsh-I.\RTE\_rt-thread-IC:\Users\llizh\AppData\Local\Arm\Packs\Synwit\SWM32_DFP\1.9.1\CSL\SWM320\CMSIS\DeviceSupport-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527"-o .\build\keil\obj\scheduler.o --depend .\build\keil\obj\scheduler.d)
-I (..\..\include\rtthread.h)(0x5D6E27EE)
-I (.\rtconfig.h)(0x5D6E27E9)
-I (..\..\include\rtdebug.h)(0x5D6E27EE)
-I (..\..\include\rtdef.h)(0x5D6E27EE)
-I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x599ECD2A)
-I (..\..\include\rtlibc.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_stat.h)(0x5D6E27EE)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
-I (C:\Keil_v5\ARM\ARMCC\include\time.h)(0x599ECD2E)
-I (..\..\include\libc/libc_errno.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_fcntl.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_ioctl.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_dirent.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_signal.h)(0x5D6E27EE)
-I (C:\Keil_v5\ARM\ARMCC\include\signal.h)(0x599ECD2C)
-I (..\..\include\libc/libc_fdset.h)(0x5D6E27EE)
-I (..\..\include\rtservice.h)(0x5D6E27EE)
-I (..\..\include\rtm.h)(0x5D6E27EE)
-I (..\..\components\finsh\finsh_api.h)(0x5D6E27ED)
-I (..\..\include\rthw.h)(0x5D6E27EE)
-F (..\..\src\signal.c)(0x5D6E27EF)(--c99 -c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections -I applications -I . -I drivers -I Libraries\CMSIS\CoreSupport -I Libraries\CMSIS\DeviceSupport -I Libraries\SWM320_StdPeriph_Driver -I ..\..\include -I ..\..\libcpu\arm\cortex-m4 -I ..\..\libcpu\arm\common -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\finsh-I.\RTE\_rt-thread-IC:\Users\llizh\AppData\Local\Arm\Packs\Synwit\SWM32_DFP\1.9.1\CSL\SWM320\CMSIS\DeviceSupport-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527"-o .\build\keil\obj\signal.o --depend .\build\keil\obj\signal.d)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599ECD2C)
-I (..\..\include\rthw.h)(0x5D6E27EE)
-I (..\..\include\rtthread.h)(0x5D6E27EE)
-I (.\rtconfig.h)(0x5D6E27E9)
-I (..\..\include\rtdebug.h)(0x5D6E27EE)
-I (..\..\include\rtdef.h)(0x5D6E27EE)
-I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x599ECD2A)
-I (..\..\include\rtlibc.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_stat.h)(0x5D6E27EE)
-I (C:\Keil_v5\ARM\ARMCC\include\time.h)(0x599ECD2E)
-I (..\..\include\libc/libc_errno.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_fcntl.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_ioctl.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_dirent.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_signal.h)(0x5D6E27EE)
-I (C:\Keil_v5\ARM\ARMCC\include\signal.h)(0x599ECD2C)
-I (..\..\include\libc/libc_fdset.h)(0x5D6E27EE)
-I (..\..\include\rtservice.h)(0x5D6E27EE)
-I (..\..\include\rtm.h)(0x5D6E27EE)
-I (..\..\components\finsh\finsh_api.h)(0x5D6E27ED)
-F (..\..\src\thread.c)(0x5D6E27EF)(--c99 -c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections -I applications -I . -I drivers -I Libraries\CMSIS\CoreSupport -I Libraries\CMSIS\DeviceSupport -I Libraries\SWM320_StdPeriph_Driver -I ..\..\include -I ..\..\libcpu\arm\cortex-m4 -I ..\..\libcpu\arm\common -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\finsh-I.\RTE\_rt-thread-IC:\Users\llizh\AppData\Local\Arm\Packs\Synwit\SWM32_DFP\1.9.1\CSL\SWM320\CMSIS\DeviceSupport-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527"-o .\build\keil\obj\thread.o --depend .\build\keil\obj\thread.d)
-I (..\..\include\rthw.h)(0x5D6E27EE)
-I (..\..\include\rtthread.h)(0x5D6E27EE)
-I (.\rtconfig.h)(0x5D6E27E9)
-I (..\..\include\rtdebug.h)(0x5D6E27EE)
-I (..\..\include\rtdef.h)(0x5D6E27EE)
-I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x599ECD2A)
-I (..\..\include\rtlibc.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_stat.h)(0x5D6E27EE)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
-I (C:\Keil_v5\ARM\ARMCC\include\time.h)(0x599ECD2E)
-I (..\..\include\libc/libc_errno.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_fcntl.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_ioctl.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_dirent.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_signal.h)(0x5D6E27EE)
-I (C:\Keil_v5\ARM\ARMCC\include\signal.h)(0x599ECD2C)
-I (..\..\include\libc/libc_fdset.h)(0x5D6E27EE)
-I (..\..\include\rtservice.h)(0x5D6E27EE)
-I (..\..\include\rtm.h)(0x5D6E27EE)
-I (..\..\components\finsh\finsh_api.h)(0x5D6E27ED)
-F (..\..\src\timer.c)(0x5D6E27EF)(--c99 -c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections -I applications -I . -I drivers -I Libraries\CMSIS\CoreSupport -I Libraries\CMSIS\DeviceSupport -I Libraries\SWM320_StdPeriph_Driver -I ..\..\include -I ..\..\libcpu\arm\cortex-m4 -I ..\..\libcpu\arm\common -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\finsh-I.\RTE\_rt-thread-IC:\Users\llizh\AppData\Local\Arm\Packs\Synwit\SWM32_DFP\1.9.1\CSL\SWM320\CMSIS\DeviceSupport-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527"-o .\build\keil\obj\timer.o --depend .\build\keil\obj\timer.d)
-I (..\..\include\rtthread.h)(0x5D6E27EE)
-I (.\rtconfig.h)(0x5D6E27E9)
-I (..\..\include\rtdebug.h)(0x5D6E27EE)
-I (..\..\include\rtdef.h)(0x5D6E27EE)
-I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x599ECD2A)
-I (..\..\include\rtlibc.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_stat.h)(0x5D6E27EE)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
-I (C:\Keil_v5\ARM\ARMCC\include\time.h)(0x599ECD2E)
-I (..\..\include\libc/libc_errno.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_fcntl.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_ioctl.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_dirent.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_signal.h)(0x5D6E27EE)
-I (C:\Keil_v5\ARM\ARMCC\include\signal.h)(0x599ECD2C)
-I (..\..\include\libc/libc_fdset.h)(0x5D6E27EE)
-I (..\..\include\rtservice.h)(0x5D6E27EE)
-I (..\..\include\rtm.h)(0x5D6E27EE)
-I (..\..\components\finsh\finsh_api.h)(0x5D6E27ED)
-I (..\..\include\rthw.h)(0x5D6E27EE)
-F (..\..\libcpu\arm\cortex-m4\cpuport.c)(0x5D6E27EE)(--c99 -c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections -I applications -I . -I drivers -I Libraries\CMSIS\CoreSupport -I Libraries\CMSIS\DeviceSupport -I Libraries\SWM320_StdPeriph_Driver -I ..\..\include -I ..\..\libcpu\arm\cortex-m4 -I ..\..\libcpu\arm\common -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\finsh-I.\RTE\_rt-thread-IC:\Users\llizh\AppData\Local\Arm\Packs\Synwit\SWM32_DFP\1.9.1\CSL\SWM320\CMSIS\DeviceSupport-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527"-o .\build\keil\obj\cpuport.o --depend .\build\keil\obj\cpuport.d)
-I (..\..\include\rtthread.h)(0x5D6E27EE)
-I (.\rtconfig.h)(0x5D6E27E9)
-I (..\..\include\rtdebug.h)(0x5D6E27EE)
-I (..\..\include\rtdef.h)(0x5D6E27EE)
-I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x599ECD2A)
-I (..\..\include\rtlibc.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_stat.h)(0x5D6E27EE)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
-I (C:\Keil_v5\ARM\ARMCC\include\time.h)(0x599ECD2E)
-I (..\..\include\libc/libc_errno.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_fcntl.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_ioctl.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_dirent.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_signal.h)(0x5D6E27EE)
-I (C:\Keil_v5\ARM\ARMCC\include\signal.h)(0x599ECD2C)
-I (..\..\include\libc/libc_fdset.h)(0x5D6E27EE)
-I (..\..\include\rtservice.h)(0x5D6E27EE)
-I (..\..\include\rtm.h)(0x5D6E27EE)
-I (..\..\components\finsh\finsh_api.h)(0x5D6E27ED)
-F (..\..\libcpu\arm\cortex-m4\context_rvds.S)(0x5D6E27EE)(--cpu Cortex-M4 -g --apcs=interwork -I.\RTE\_rt-thread-IC:\Users\llizh\AppData\Local\Arm\Packs\Synwit\SWM32_DFP\1.9.1\CSL\SWM320\CMSIS\DeviceSupport-IC:\Keil_v5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 527"--list .\build\context_rvds.lst --xref -o .\build\keil\obj\context_rvds.o --depend .\build\keil\obj\context_rvds.d)
-F (..\..\libcpu\arm\common\backtrace.c)(0x5D6E27EE)(--c99 -c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections -I applications -I . -I drivers -I Libraries\CMSIS\CoreSupport -I Libraries\CMSIS\DeviceSupport -I Libraries\SWM320_StdPeriph_Driver -I ..\..\include -I ..\..\libcpu\arm\cortex-m4 -I ..\..\libcpu\arm\common -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\finsh-I.\RTE\_rt-thread-IC:\Users\llizh\AppData\Local\Arm\Packs\Synwit\SWM32_DFP\1.9.1\CSL\SWM320\CMSIS\DeviceSupport-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527"-o .\build\keil\obj\backtrace.o --depend .\build\keil\obj\backtrace.d)
-I (..\..\include\rtthread.h)(0x5D6E27EE)
-I (.\rtconfig.h)(0x5D6E27E9)
-I (..\..\include\rtdebug.h)(0x5D6E27EE)
-I (..\..\include\rtdef.h)(0x5D6E27EE)
-I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x599ECD2A)
-I (..\..\include\rtlibc.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_stat.h)(0x5D6E27EE)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
-I (C:\Keil_v5\ARM\ARMCC\include\time.h)(0x599ECD2E)
-I (..\..\include\libc/libc_errno.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_fcntl.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_ioctl.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_dirent.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_signal.h)(0x5D6E27EE)
-I (C:\Keil_v5\ARM\ARMCC\include\signal.h)(0x599ECD2C)
-I (..\..\include\libc/libc_fdset.h)(0x5D6E27EE)
-I (..\..\include\rtservice.h)(0x5D6E27EE)
-I (..\..\include\rtm.h)(0x5D6E27EE)
-I (..\..\components\finsh\finsh_api.h)(0x5D6E27ED)
-F (..\..\libcpu\arm\common\div0.c)(0x5D6E27EE)(--c99 -c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections -I applications -I . -I drivers -I Libraries\CMSIS\CoreSupport -I Libraries\CMSIS\DeviceSupport -I Libraries\SWM320_StdPeriph_Driver -I ..\..\include -I ..\..\libcpu\arm\cortex-m4 -I ..\..\libcpu\arm\common -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\finsh-I.\RTE\_rt-thread-IC:\Users\llizh\AppData\Local\Arm\Packs\Synwit\SWM32_DFP\1.9.1\CSL\SWM320\CMSIS\DeviceSupport-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527"-o .\build\keil\obj\div0.o --depend .\build\keil\obj\div0.d)
-F (..\..\libcpu\arm\common\showmem.c)(0x5D6E27EE)(--c99 -c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections -I applications -I . -I drivers -I Libraries\CMSIS\CoreSupport -I Libraries\CMSIS\DeviceSupport -I Libraries\SWM320_StdPeriph_Driver -I ..\..\include -I ..\..\libcpu\arm\cortex-m4 -I ..\..\libcpu\arm\common -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\finsh-I.\RTE\_rt-thread-IC:\Users\llizh\AppData\Local\Arm\Packs\Synwit\SWM32_DFP\1.9.1\CSL\SWM320\CMSIS\DeviceSupport-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527"-o .\build\keil\obj\showmem.o --depend .\build\keil\obj\showmem.d)
-I (..\..\include\rtthread.h)(0x5D6E27EE)
-I (.\rtconfig.h)(0x5D6E27E9)
-I (..\..\include\rtdebug.h)(0x5D6E27EE)
-I (..\..\include\rtdef.h)(0x5D6E27EE)
-I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x599ECD2A)
-I (..\..\include\rtlibc.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_stat.h)(0x5D6E27EE)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
-I (C:\Keil_v5\ARM\ARMCC\include\time.h)(0x599ECD2E)
-I (..\..\include\libc/libc_errno.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_fcntl.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_ioctl.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_dirent.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_signal.h)(0x5D6E27EE)
-I (C:\Keil_v5\ARM\ARMCC\include\signal.h)(0x599ECD2C)
-I (..\..\include\libc/libc_fdset.h)(0x5D6E27EE)
-I (..\..\include\rtservice.h)(0x5D6E27EE)
-I (..\..\include\rtm.h)(0x5D6E27EE)
-I (..\..\components\finsh\finsh_api.h)(0x5D6E27ED)
-F (..\..\components\drivers\hwtimer\hwtimer.c)(0x5D6E27EC)(--c99 -c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections -I applications -I . -I drivers -I Libraries\CMSIS\CoreSupport -I Libraries\CMSIS\DeviceSupport -I Libraries\SWM320_StdPeriph_Driver -I ..\..\include -I ..\..\libcpu\arm\cortex-m4 -I ..\..\libcpu\arm\common -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\finsh-I.\RTE\_rt-thread-IC:\Users\llizh\AppData\Local\Arm\Packs\Synwit\SWM32_DFP\1.9.1\CSL\SWM320\CMSIS\DeviceSupport-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527"-o .\build\keil\obj\hwtimer.o --depend .\build\keil\obj\hwtimer.d)
-I (..\..\include\rtthread.h)(0x5D6E27EE)
-I (.\rtconfig.h)(0x5D6E27E9)
-I (..\..\include\rtdebug.h)(0x5D6E27EE)
-I (..\..\include\rtdef.h)(0x5D6E27EE)
-I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x599ECD2A)
-I (..\..\include\rtlibc.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_stat.h)(0x5D6E27EE)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
-I (C:\Keil_v5\ARM\ARMCC\include\time.h)(0x599ECD2E)
-I (..\..\include\libc/libc_errno.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_fcntl.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_ioctl.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_dirent.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_signal.h)(0x5D6E27EE)
-I (C:\Keil_v5\ARM\ARMCC\include\signal.h)(0x599ECD2C)
-I (..\..\include\libc/libc_fdset.h)(0x5D6E27EE)
-I (..\..\include\rtservice.h)(0x5D6E27EE)
-I (..\..\include\rtm.h)(0x5D6E27EE)
-I (..\..\components\finsh\finsh_api.h)(0x5D6E27ED)
-I (..\..\components\drivers\include\rtdevice.h)(0x5D6E27EC)
-I (..\..\components\drivers\include\ipc/ringbuffer.h)(0x5D6E27EC)
-I (..\..\components\drivers\include\ipc/completion.h)(0x5D6E27EC)
-I (..\..\components\drivers\include\ipc/dataqueue.h)(0x5D6E27EC)
-I (..\..\components\drivers\include\ipc/workqueue.h)(0x5D6E27EC)
-I (..\..\components\drivers\include\ipc/waitqueue.h)(0x5D6E27EC)
-I (..\..\components\drivers\include\ipc/pipe.h)(0x5D6E27EC)
-I (..\..\components\drivers\include\ipc/poll.h)(0x5D6E27EC)
-I (..\..\components\drivers\include\ipc/ringblk_buf.h)(0x5D6E27EC)
-I (..\..\components\drivers\include\drivers/serial.h)(0x5D6E27EC)
-I (..\..\components\drivers\include\drivers/pin.h)(0x5D6E27EC)
-I (..\..\components\drivers\include\drivers/hwtimer.h)(0x5D6E27EC)
-I (..\..\components\drivers\include\drivers/rt_drv_pwm.h)(0x5D6E27EC)
-F (..\..\components\drivers\misc\pin.c)(0x5D6E27EC)(--c99 -c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections -I applications -I . -I drivers -I Libraries\CMSIS\CoreSupport -I Libraries\CMSIS\DeviceSupport -I Libraries\SWM320_StdPeriph_Driver -I ..\..\include -I ..\..\libcpu\arm\cortex-m4 -I ..\..\libcpu\arm\common -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\finsh-I.\RTE\_rt-thread-IC:\Users\llizh\AppData\Local\Arm\Packs\Synwit\SWM32_DFP\1.9.1\CSL\SWM320\CMSIS\DeviceSupport-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527"-o .\build\keil\obj\pin.o --depend .\build\keil\obj\pin.d)
-I (..\..\components\drivers\include\drivers/pin.h)(0x5D6E27EC)
-I (..\..\include\rtthread.h)(0x5D6E27EE)
-I (.\rtconfig.h)(0x5D6E27E9)
-I (..\..\include\rtdebug.h)(0x5D6E27EE)
-I (..\..\include\rtdef.h)(0x5D6E27EE)
-I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x599ECD2A)
-I (..\..\include\rtlibc.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_stat.h)(0x5D6E27EE)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
-I (C:\Keil_v5\ARM\ARMCC\include\time.h)(0x599ECD2E)
-I (..\..\include\libc/libc_errno.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_fcntl.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_ioctl.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_dirent.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_signal.h)(0x5D6E27EE)
-I (C:\Keil_v5\ARM\ARMCC\include\signal.h)(0x599ECD2C)
-I (..\..\include\libc/libc_fdset.h)(0x5D6E27EE)
-I (..\..\include\rtservice.h)(0x5D6E27EE)
-I (..\..\include\rtm.h)(0x5D6E27EE)
-I (..\..\components\finsh\finsh_api.h)(0x5D6E27ED)
-I (..\..\components\drivers\include\rtdevice.h)(0x5D6E27EC)
-I (..\..\components\drivers\include\ipc/ringbuffer.h)(0x5D6E27EC)
-I (..\..\components\drivers\include\ipc/completion.h)(0x5D6E27EC)
-I (..\..\components\drivers\include\ipc/dataqueue.h)(0x5D6E27EC)
-I (..\..\components\drivers\include\ipc/workqueue.h)(0x5D6E27EC)
-I (..\..\components\drivers\include\ipc/waitqueue.h)(0x5D6E27EC)
-I (..\..\components\drivers\include\ipc/pipe.h)(0x5D6E27EC)
-I (..\..\components\drivers\include\ipc/poll.h)(0x5D6E27EC)
-I (..\..\components\drivers\include\ipc/ringblk_buf.h)(0x5D6E27EC)
-I (..\..\components\drivers\include\drivers/serial.h)(0x5D6E27EC)
-I (..\..\components\drivers\include\drivers/hwtimer.h)(0x5D6E27EC)
-I (..\..\components\drivers\include\drivers/rt_drv_pwm.h)(0x5D6E27EC)
-I (..\..\components\finsh\finsh.h)(0x5D6E27ED)
-I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
-I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x599ECD2E)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599ECD2C)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599ECD2C)
-F (..\..\components\drivers\misc\rt_drv_pwm.c)(0x5D6E27EC)(--c99 -c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections -I applications -I . -I drivers -I Libraries\CMSIS\CoreSupport -I Libraries\CMSIS\DeviceSupport -I Libraries\SWM320_StdPeriph_Driver -I ..\..\include -I ..\..\libcpu\arm\cortex-m4 -I ..\..\libcpu\arm\common -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\finsh-I.\RTE\_rt-thread-IC:\Users\llizh\AppData\Local\Arm\Packs\Synwit\SWM32_DFP\1.9.1\CSL\SWM320\CMSIS\DeviceSupport-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527"-o .\build\keil\obj\rt_drv_pwm.o --depend .\build\keil\obj\rt_drv_pwm.d)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599ECD2C)
-I (..\..\components\drivers\include\drivers/rt_drv_pwm.h)(0x5D6E27EC)
-I (..\..\include\rtthread.h)(0x5D6E27EE)
-I (.\rtconfig.h)(0x5D6E27E9)
-I (..\..\include\rtdebug.h)(0x5D6E27EE)
-I (..\..\include\rtdef.h)(0x5D6E27EE)
-I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x599ECD2A)
-I (..\..\include\rtlibc.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_stat.h)(0x5D6E27EE)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
-I (C:\Keil_v5\ARM\ARMCC\include\time.h)(0x599ECD2E)
-I (..\..\include\libc/libc_errno.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_fcntl.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_ioctl.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_dirent.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_signal.h)(0x5D6E27EE)
-I (C:\Keil_v5\ARM\ARMCC\include\signal.h)(0x599ECD2C)
-I (..\..\include\libc/libc_fdset.h)(0x5D6E27EE)
-I (..\..\include\rtservice.h)(0x5D6E27EE)
-I (..\..\include\rtm.h)(0x5D6E27EE)
-I (..\..\components\finsh\finsh_api.h)(0x5D6E27ED)
-I (..\..\components\drivers\include\rtdevice.h)(0x5D6E27EC)
-I (..\..\components\drivers\include\ipc/ringbuffer.h)(0x5D6E27EC)
-I (..\..\components\drivers\include\ipc/completion.h)(0x5D6E27EC)
-I (..\..\components\drivers\include\ipc/dataqueue.h)(0x5D6E27EC)
-I (..\..\components\drivers\include\ipc/workqueue.h)(0x5D6E27EC)
-I (..\..\components\drivers\include\ipc/waitqueue.h)(0x5D6E27EC)
-I (..\..\components\drivers\include\ipc/pipe.h)(0x5D6E27EC)
-I (..\..\components\drivers\include\ipc/poll.h)(0x5D6E27EC)
-I (..\..\components\drivers\include\ipc/ringblk_buf.h)(0x5D6E27EC)
-I (..\..\components\drivers\include\drivers/serial.h)(0x5D6E27EC)
-I (..\..\components\drivers\include\drivers/pin.h)(0x5D6E27EC)
-I (..\..\components\drivers\include\drivers/hwtimer.h)(0x5D6E27EC)
-I (..\..\components\finsh\finsh.h)(0x5D6E27ED)
-I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
-I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x599ECD2E)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599ECD2C)
-F (..\..\components\drivers\serial\serial.c)(0x5D6E27ED)(--c99 -c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections -I applications -I . -I drivers -I Libraries\CMSIS\CoreSupport -I Libraries\CMSIS\DeviceSupport -I Libraries\SWM320_StdPeriph_Driver -I ..\..\include -I ..\..\libcpu\arm\cortex-m4 -I ..\..\libcpu\arm\common -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\finsh-I.\RTE\_rt-thread-IC:\Users\llizh\AppData\Local\Arm\Packs\Synwit\SWM32_DFP\1.9.1\CSL\SWM320\CMSIS\DeviceSupport-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527"-o .\build\keil\obj\serial.o --depend .\build\keil\obj\serial.d)
-I (..\..\include\rthw.h)(0x5D6E27EE)
-I (..\..\include\rtthread.h)(0x5D6E27EE)
-I (.\rtconfig.h)(0x5D6E27E9)
-I (..\..\include\rtdebug.h)(0x5D6E27EE)
-I (..\..\include\rtdef.h)(0x5D6E27EE)
-I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x599ECD2A)
-I (..\..\include\rtlibc.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_stat.h)(0x5D6E27EE)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
-I (C:\Keil_v5\ARM\ARMCC\include\time.h)(0x599ECD2E)
-I (..\..\include\libc/libc_errno.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_fcntl.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_ioctl.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_dirent.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_signal.h)(0x5D6E27EE)
-I (C:\Keil_v5\ARM\ARMCC\include\signal.h)(0x599ECD2C)
-I (..\..\include\libc/libc_fdset.h)(0x5D6E27EE)
-I (..\..\include\rtservice.h)(0x5D6E27EE)
-I (..\..\include\rtm.h)(0x5D6E27EE)
-I (..\..\components\finsh\finsh_api.h)(0x5D6E27ED)
-I (..\..\components\drivers\include\rtdevice.h)(0x5D6E27EC)
-I (..\..\components\drivers\include\ipc/ringbuffer.h)(0x5D6E27EC)
-I (..\..\components\drivers\include\ipc/completion.h)(0x5D6E27EC)
-I (..\..\components\drivers\include\ipc/dataqueue.h)(0x5D6E27EC)
-I (..\..\components\drivers\include\ipc/workqueue.h)(0x5D6E27EC)
-I (..\..\components\drivers\include\ipc/waitqueue.h)(0x5D6E27EC)
-I (..\..\components\drivers\include\ipc/pipe.h)(0x5D6E27EC)
-I (..\..\components\drivers\include\ipc/poll.h)(0x5D6E27EC)
-I (..\..\components\drivers\include\ipc/ringblk_buf.h)(0x5D6E27EC)
-I (..\..\components\drivers\include\drivers/serial.h)(0x5D6E27EC)
-I (..\..\components\drivers\include\drivers/pin.h)(0x5D6E27EC)
-I (..\..\components\drivers\include\drivers/hwtimer.h)(0x5D6E27EC)
-I (..\..\components\drivers\include\drivers/rt_drv_pwm.h)(0x5D6E27EC)
-I (..\..\include\rtdbg.h)(0x5D6E27EE)
-F (..\..\components\drivers\src\completion.c)(0x5D6E27ED)(--c99 -c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections -I applications -I . -I drivers -I Libraries\CMSIS\CoreSupport -I Libraries\CMSIS\DeviceSupport -I Libraries\SWM320_StdPeriph_Driver -I ..\..\include -I ..\..\libcpu\arm\cortex-m4 -I ..\..\libcpu\arm\common -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\finsh-I.\RTE\_rt-thread-IC:\Users\llizh\AppData\Local\Arm\Packs\Synwit\SWM32_DFP\1.9.1\CSL\SWM320\CMSIS\DeviceSupport-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527"-o .\build\keil\obj\completion.o --depend .\build\keil\obj\completion.d)
-I (..\..\include\rthw.h)(0x5D6E27EE)
-I (..\..\include\rtthread.h)(0x5D6E27EE)
-I (.\rtconfig.h)(0x5D6E27E9)
-I (..\..\include\rtdebug.h)(0x5D6E27EE)
-I (..\..\include\rtdef.h)(0x5D6E27EE)
-I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x599ECD2A)
-I (..\..\include\rtlibc.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_stat.h)(0x5D6E27EE)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
-I (C:\Keil_v5\ARM\ARMCC\include\time.h)(0x599ECD2E)
-I (..\..\include\libc/libc_errno.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_fcntl.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_ioctl.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_dirent.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_signal.h)(0x5D6E27EE)
-I (C:\Keil_v5\ARM\ARMCC\include\signal.h)(0x599ECD2C)
-I (..\..\include\libc/libc_fdset.h)(0x5D6E27EE)
-I (..\..\include\rtservice.h)(0x5D6E27EE)
-I (..\..\include\rtm.h)(0x5D6E27EE)
-I (..\..\components\finsh\finsh_api.h)(0x5D6E27ED)
-I (..\..\components\drivers\include\rtdevice.h)(0x5D6E27EC)
-I (..\..\components\drivers\include\ipc/ringbuffer.h)(0x5D6E27EC)
-I (..\..\components\drivers\include\ipc/completion.h)(0x5D6E27EC)
-I (..\..\components\drivers\include\ipc/dataqueue.h)(0x5D6E27EC)
-I (..\..\components\drivers\include\ipc/workqueue.h)(0x5D6E27EC)
-I (..\..\components\drivers\include\ipc/waitqueue.h)(0x5D6E27EC)
-I (..\..\components\drivers\include\ipc/pipe.h)(0x5D6E27EC)
-I (..\..\components\drivers\include\ipc/poll.h)(0x5D6E27EC)
-I (..\..\components\drivers\include\ipc/ringblk_buf.h)(0x5D6E27EC)
-I (..\..\components\drivers\include\drivers/serial.h)(0x5D6E27EC)
-I (..\..\components\drivers\include\drivers/pin.h)(0x5D6E27EC)
-I (..\..\components\drivers\include\drivers/hwtimer.h)(0x5D6E27EC)
-I (..\..\components\drivers\include\drivers/rt_drv_pwm.h)(0x5D6E27EC)
-F (..\..\components\drivers\src\dataqueue.c)(0x5D6E27ED)(--c99 -c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections -I applications -I . -I drivers -I Libraries\CMSIS\CoreSupport -I Libraries\CMSIS\DeviceSupport -I Libraries\SWM320_StdPeriph_Driver -I ..\..\include -I ..\..\libcpu\arm\cortex-m4 -I ..\..\libcpu\arm\common -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\finsh-I.\RTE\_rt-thread-IC:\Users\llizh\AppData\Local\Arm\Packs\Synwit\SWM32_DFP\1.9.1\CSL\SWM320\CMSIS\DeviceSupport-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527"-o .\build\keil\obj\dataqueue.o --depend .\build\keil\obj\dataqueue.d)
-I (..\..\include\rtthread.h)(0x5D6E27EE)
-I (.\rtconfig.h)(0x5D6E27E9)
-I (..\..\include\rtdebug.h)(0x5D6E27EE)
-I (..\..\include\rtdef.h)(0x5D6E27EE)
-I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x599ECD2A)
-I (..\..\include\rtlibc.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_stat.h)(0x5D6E27EE)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
-I (C:\Keil_v5\ARM\ARMCC\include\time.h)(0x599ECD2E)
-I (..\..\include\libc/libc_errno.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_fcntl.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_ioctl.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_dirent.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_signal.h)(0x5D6E27EE)
-I (C:\Keil_v5\ARM\ARMCC\include\signal.h)(0x599ECD2C)
-I (..\..\include\libc/libc_fdset.h)(0x5D6E27EE)
-I (..\..\include\rtservice.h)(0x5D6E27EE)
-I (..\..\include\rtm.h)(0x5D6E27EE)
-I (..\..\components\finsh\finsh_api.h)(0x5D6E27ED)
-I (..\..\components\drivers\include\rtdevice.h)(0x5D6E27EC)
-I (..\..\components\drivers\include\ipc/ringbuffer.h)(0x5D6E27EC)
-I (..\..\components\drivers\include\ipc/completion.h)(0x5D6E27EC)
-I (..\..\components\drivers\include\ipc/dataqueue.h)(0x5D6E27EC)
-I (..\..\components\drivers\include\ipc/workqueue.h)(0x5D6E27EC)
-I (..\..\components\drivers\include\ipc/waitqueue.h)(0x5D6E27EC)
-I (..\..\components\drivers\include\ipc/pipe.h)(0x5D6E27EC)
-I (..\..\components\drivers\include\ipc/poll.h)(0x5D6E27EC)
-I (..\..\components\drivers\include\ipc/ringblk_buf.h)(0x5D6E27EC)
-I (..\..\components\drivers\include\drivers/serial.h)(0x5D6E27EC)
-I (..\..\components\drivers\include\drivers/pin.h)(0x5D6E27EC)
-I (..\..\components\drivers\include\drivers/hwtimer.h)(0x5D6E27EC)
-I (..\..\components\drivers\include\drivers/rt_drv_pwm.h)(0x5D6E27EC)
-I (..\..\include\rthw.h)(0x5D6E27EE)
-F (..\..\components\drivers\src\pipe.c)(0x5D6E27ED)(--c99 -c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections -I applications -I . -I drivers -I Libraries\CMSIS\CoreSupport -I Libraries\CMSIS\DeviceSupport -I Libraries\SWM320_StdPeriph_Driver -I ..\..\include -I ..\..\libcpu\arm\cortex-m4 -I ..\..\libcpu\arm\common -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\finsh-I.\RTE\_rt-thread-IC:\Users\llizh\AppData\Local\Arm\Packs\Synwit\SWM32_DFP\1.9.1\CSL\SWM320\CMSIS\DeviceSupport-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527"-o .\build\keil\obj\pipe.o --depend .\build\keil\obj\pipe.d)
-I (..\..\include\rthw.h)(0x5D6E27EE)
-I (..\..\include\rtthread.h)(0x5D6E27EE)
-I (.\rtconfig.h)(0x5D6E27E9)
-I (..\..\include\rtdebug.h)(0x5D6E27EE)
-I (..\..\include\rtdef.h)(0x5D6E27EE)
-I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x599ECD2A)
-I (..\..\include\rtlibc.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_stat.h)(0x5D6E27EE)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
-I (C:\Keil_v5\ARM\ARMCC\include\time.h)(0x599ECD2E)
-I (..\..\include\libc/libc_errno.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_fcntl.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_ioctl.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_dirent.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_signal.h)(0x5D6E27EE)
-I (C:\Keil_v5\ARM\ARMCC\include\signal.h)(0x599ECD2C)
-I (..\..\include\libc/libc_fdset.h)(0x5D6E27EE)
-I (..\..\include\rtservice.h)(0x5D6E27EE)
-I (..\..\include\rtm.h)(0x5D6E27EE)
-I (..\..\components\finsh\finsh_api.h)(0x5D6E27ED)
-I (..\..\components\drivers\include\rtdevice.h)(0x5D6E27EC)
-I (..\..\components\drivers\include\ipc/ringbuffer.h)(0x5D6E27EC)
-I (..\..\components\drivers\include\ipc/completion.h)(0x5D6E27EC)
-I (..\..\components\drivers\include\ipc/dataqueue.h)(0x5D6E27EC)
-I (..\..\components\drivers\include\ipc/workqueue.h)(0x5D6E27EC)
-I (..\..\components\drivers\include\ipc/waitqueue.h)(0x5D6E27EC)
-I (..\..\components\drivers\include\ipc/pipe.h)(0x5D6E27EC)
-I (..\..\components\drivers\include\ipc/poll.h)(0x5D6E27EC)
-I (..\..\components\drivers\include\ipc/ringblk_buf.h)(0x5D6E27EC)
-I (..\..\components\drivers\include\drivers/serial.h)(0x5D6E27EC)
-I (..\..\components\drivers\include\drivers/pin.h)(0x5D6E27EC)
-I (..\..\components\drivers\include\drivers/hwtimer.h)(0x5D6E27EC)
-I (..\..\components\drivers\include\drivers/rt_drv_pwm.h)(0x5D6E27EC)
-F (..\..\components\drivers\src\ringblk_buf.c)(0x5D6E27ED)(--c99 -c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections -I applications -I . -I drivers -I Libraries\CMSIS\CoreSupport -I Libraries\CMSIS\DeviceSupport -I Libraries\SWM320_StdPeriph_Driver -I ..\..\include -I ..\..\libcpu\arm\cortex-m4 -I ..\..\libcpu\arm\common -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\finsh-I.\RTE\_rt-thread-IC:\Users\llizh\AppData\Local\Arm\Packs\Synwit\SWM32_DFP\1.9.1\CSL\SWM320\CMSIS\DeviceSupport-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527"-o .\build\keil\obj\ringblk_buf.o --depend .\build\keil\obj\ringblk_buf.d)
-I (..\..\include\rthw.h)(0x5D6E27EE)
-I (..\..\include\rtthread.h)(0x5D6E27EE)
-I (.\rtconfig.h)(0x5D6E27E9)
-I (..\..\include\rtdebug.h)(0x5D6E27EE)
-I (..\..\include\rtdef.h)(0x5D6E27EE)
-I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x599ECD2A)
-I (..\..\include\rtlibc.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_stat.h)(0x5D6E27EE)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
-I (C:\Keil_v5\ARM\ARMCC\include\time.h)(0x599ECD2E)
-I (..\..\include\libc/libc_errno.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_fcntl.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_ioctl.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_dirent.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_signal.h)(0x5D6E27EE)
-I (C:\Keil_v5\ARM\ARMCC\include\signal.h)(0x599ECD2C)
-I (..\..\include\libc/libc_fdset.h)(0x5D6E27EE)
-I (..\..\include\rtservice.h)(0x5D6E27EE)
-I (..\..\include\rtm.h)(0x5D6E27EE)
-I (..\..\components\finsh\finsh_api.h)(0x5D6E27ED)
-I (..\..\components\drivers\include\rtdevice.h)(0x5D6E27EC)
-I (..\..\components\drivers\include\ipc/ringbuffer.h)(0x5D6E27EC)
-I (..\..\components\drivers\include\ipc/completion.h)(0x5D6E27EC)
-I (..\..\components\drivers\include\ipc/dataqueue.h)(0x5D6E27EC)
-I (..\..\components\drivers\include\ipc/workqueue.h)(0x5D6E27EC)
-I (..\..\components\drivers\include\ipc/waitqueue.h)(0x5D6E27EC)
-I (..\..\components\drivers\include\ipc/pipe.h)(0x5D6E27EC)
-I (..\..\components\drivers\include\ipc/poll.h)(0x5D6E27EC)
-I (..\..\components\drivers\include\ipc/ringblk_buf.h)(0x5D6E27EC)
-I (..\..\components\drivers\include\drivers/serial.h)(0x5D6E27EC)
-I (..\..\components\drivers\include\drivers/pin.h)(0x5D6E27EC)
-I (..\..\components\drivers\include\drivers/hwtimer.h)(0x5D6E27EC)
-I (..\..\components\drivers\include\drivers/rt_drv_pwm.h)(0x5D6E27EC)
-F (..\..\components\drivers\src\ringbuffer.c)(0x5D6E27ED)(--c99 -c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections -I applications -I . -I drivers -I Libraries\CMSIS\CoreSupport -I Libraries\CMSIS\DeviceSupport -I Libraries\SWM320_StdPeriph_Driver -I ..\..\include -I ..\..\libcpu\arm\cortex-m4 -I ..\..\libcpu\arm\common -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\finsh-I.\RTE\_rt-thread-IC:\Users\llizh\AppData\Local\Arm\Packs\Synwit\SWM32_DFP\1.9.1\CSL\SWM320\CMSIS\DeviceSupport-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527"-o .\build\keil\obj\ringbuffer.o --depend .\build\keil\obj\ringbuffer.d)
-I (..\..\include\rtthread.h)(0x5D6E27EE)
-I (.\rtconfig.h)(0x5D6E27E9)
-I (..\..\include\rtdebug.h)(0x5D6E27EE)
-I (..\..\include\rtdef.h)(0x5D6E27EE)
-I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x599ECD2A)
-I (..\..\include\rtlibc.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_stat.h)(0x5D6E27EE)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
-I (C:\Keil_v5\ARM\ARMCC\include\time.h)(0x599ECD2E)
-I (..\..\include\libc/libc_errno.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_fcntl.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_ioctl.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_dirent.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_signal.h)(0x5D6E27EE)
-I (C:\Keil_v5\ARM\ARMCC\include\signal.h)(0x599ECD2C)
-I (..\..\include\libc/libc_fdset.h)(0x5D6E27EE)
-I (..\..\include\rtservice.h)(0x5D6E27EE)
-I (..\..\include\rtm.h)(0x5D6E27EE)
-I (..\..\components\finsh\finsh_api.h)(0x5D6E27ED)
-I (..\..\components\drivers\include\rtdevice.h)(0x5D6E27EC)
-I (..\..\components\drivers\include\ipc/ringbuffer.h)(0x5D6E27EC)
-I (..\..\components\drivers\include\ipc/completion.h)(0x5D6E27EC)
-I (..\..\components\drivers\include\ipc/dataqueue.h)(0x5D6E27EC)
-I (..\..\components\drivers\include\ipc/workqueue.h)(0x5D6E27EC)
-I (..\..\components\drivers\include\ipc/waitqueue.h)(0x5D6E27EC)
-I (..\..\components\drivers\include\ipc/pipe.h)(0x5D6E27EC)
-I (..\..\components\drivers\include\ipc/poll.h)(0x5D6E27EC)
-I (..\..\components\drivers\include\ipc/ringblk_buf.h)(0x5D6E27EC)
-I (..\..\components\drivers\include\drivers/serial.h)(0x5D6E27EC)
-I (..\..\components\drivers\include\drivers/pin.h)(0x5D6E27EC)
-I (..\..\components\drivers\include\drivers/hwtimer.h)(0x5D6E27EC)
-I (..\..\components\drivers\include\drivers/rt_drv_pwm.h)(0x5D6E27EC)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599ECD2C)
-F (..\..\components\drivers\src\waitqueue.c)(0x5D6E27ED)(--c99 -c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections -I applications -I . -I drivers -I Libraries\CMSIS\CoreSupport -I Libraries\CMSIS\DeviceSupport -I Libraries\SWM320_StdPeriph_Driver -I ..\..\include -I ..\..\libcpu\arm\cortex-m4 -I ..\..\libcpu\arm\common -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\finsh-I.\RTE\_rt-thread-IC:\Users\llizh\AppData\Local\Arm\Packs\Synwit\SWM32_DFP\1.9.1\CSL\SWM320\CMSIS\DeviceSupport-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527"-o .\build\keil\obj\waitqueue.o --depend .\build\keil\obj\waitqueue.d)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
-I (..\..\include\rthw.h)(0x5D6E27EE)
-I (..\..\include\rtthread.h)(0x5D6E27EE)
-I (.\rtconfig.h)(0x5D6E27E9)
-I (..\..\include\rtdebug.h)(0x5D6E27EE)
-I (..\..\include\rtdef.h)(0x5D6E27EE)
-I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x599ECD2A)
-I (..\..\include\rtlibc.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_stat.h)(0x5D6E27EE)
-I (C:\Keil_v5\ARM\ARMCC\include\time.h)(0x599ECD2E)
-I (..\..\include\libc/libc_errno.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_fcntl.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_ioctl.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_dirent.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_signal.h)(0x5D6E27EE)
-I (C:\Keil_v5\ARM\ARMCC\include\signal.h)(0x599ECD2C)
-I (..\..\include\libc/libc_fdset.h)(0x5D6E27EE)
-I (..\..\include\rtservice.h)(0x5D6E27EE)
-I (..\..\include\rtm.h)(0x5D6E27EE)
-I (..\..\components\finsh\finsh_api.h)(0x5D6E27ED)
-I (..\..\components\drivers\include\rtdevice.h)(0x5D6E27EC)
-I (..\..\components\drivers\include\ipc/ringbuffer.h)(0x5D6E27EC)
-I (..\..\components\drivers\include\ipc/completion.h)(0x5D6E27EC)
-I (..\..\components\drivers\include\ipc/dataqueue.h)(0x5D6E27EC)
-I (..\..\components\drivers\include\ipc/workqueue.h)(0x5D6E27EC)
-I (..\..\components\drivers\include\ipc/waitqueue.h)(0x5D6E27EC)
-I (..\..\components\drivers\include\ipc/pipe.h)(0x5D6E27EC)
-I (..\..\components\drivers\include\ipc/poll.h)(0x5D6E27EC)
-I (..\..\components\drivers\include\ipc/ringblk_buf.h)(0x5D6E27EC)
-I (..\..\components\drivers\include\drivers/serial.h)(0x5D6E27EC)
-I (..\..\components\drivers\include\drivers/pin.h)(0x5D6E27EC)
-I (..\..\components\drivers\include\drivers/hwtimer.h)(0x5D6E27EC)
-I (..\..\components\drivers\include\drivers/rt_drv_pwm.h)(0x5D6E27EC)
-F (..\..\components\drivers\src\workqueue.c)(0x5D6E27ED)(--c99 -c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections -I applications -I . -I drivers -I Libraries\CMSIS\CoreSupport -I Libraries\CMSIS\DeviceSupport -I Libraries\SWM320_StdPeriph_Driver -I ..\..\include -I ..\..\libcpu\arm\cortex-m4 -I ..\..\libcpu\arm\common -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\finsh-I.\RTE\_rt-thread-IC:\Users\llizh\AppData\Local\Arm\Packs\Synwit\SWM32_DFP\1.9.1\CSL\SWM320\CMSIS\DeviceSupport-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527"-o .\build\keil\obj\workqueue.o --depend .\build\keil\obj\workqueue.d)
-I (..\..\include\rthw.h)(0x5D6E27EE)
-I (..\..\include\rtthread.h)(0x5D6E27EE)
-I (.\rtconfig.h)(0x5D6E27E9)
-I (..\..\include\rtdebug.h)(0x5D6E27EE)
-I (..\..\include\rtdef.h)(0x5D6E27EE)
-I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x599ECD2A)
-I (..\..\include\rtlibc.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_stat.h)(0x5D6E27EE)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
-I (C:\Keil_v5\ARM\ARMCC\include\time.h)(0x599ECD2E)
-I (..\..\include\libc/libc_errno.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_fcntl.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_ioctl.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_dirent.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_signal.h)(0x5D6E27EE)
-I (C:\Keil_v5\ARM\ARMCC\include\signal.h)(0x599ECD2C)
-I (..\..\include\libc/libc_fdset.h)(0x5D6E27EE)
-I (..\..\include\rtservice.h)(0x5D6E27EE)
-I (..\..\include\rtm.h)(0x5D6E27EE)
-I (..\..\components\finsh\finsh_api.h)(0x5D6E27ED)
-I (..\..\components\drivers\include\rtdevice.h)(0x5D6E27EC)
-I (..\..\components\drivers\include\ipc/ringbuffer.h)(0x5D6E27EC)
-I (..\..\components\drivers\include\ipc/completion.h)(0x5D6E27EC)
-I (..\..\components\drivers\include\ipc/dataqueue.h)(0x5D6E27EC)
-I (..\..\components\drivers\include\ipc/workqueue.h)(0x5D6E27EC)
-I (..\..\components\drivers\include\ipc/waitqueue.h)(0x5D6E27EC)
-I (..\..\components\drivers\include\ipc/pipe.h)(0x5D6E27EC)
-I (..\..\components\drivers\include\ipc/poll.h)(0x5D6E27EC)
-I (..\..\components\drivers\include\ipc/ringblk_buf.h)(0x5D6E27EC)
-I (..\..\components\drivers\include\drivers/serial.h)(0x5D6E27EC)
-I (..\..\components\drivers\include\drivers/pin.h)(0x5D6E27EC)
-I (..\..\components\drivers\include\drivers/hwtimer.h)(0x5D6E27EC)
-I (..\..\components\drivers\include\drivers/rt_drv_pwm.h)(0x5D6E27EC)
-F (..\..\components\finsh\shell.c)(0x5D6E27ED)(--c99 -c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections -I applications -I . -I drivers -I Libraries\CMSIS\CoreSupport -I Libraries\CMSIS\DeviceSupport -I Libraries\SWM320_StdPeriph_Driver -I ..\..\include -I ..\..\libcpu\arm\cortex-m4 -I ..\..\libcpu\arm\common -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\finsh-I.\RTE\_rt-thread-IC:\Users\llizh\AppData\Local\Arm\Packs\Synwit\SWM32_DFP\1.9.1\CSL\SWM320\CMSIS\DeviceSupport-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527"-o .\build\keil\obj\shell.o --depend .\build\keil\obj\shell.d)
-I (..\..\include\rthw.h)(0x5D6E27EE)
-I (..\..\include\rtthread.h)(0x5D6E27EE)
-I (.\rtconfig.h)(0x5D6E27E9)
-I (..\..\include\rtdebug.h)(0x5D6E27EE)
-I (..\..\include\rtdef.h)(0x5D6E27EE)
-I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x599ECD2A)
-I (..\..\include\rtlibc.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_stat.h)(0x5D6E27EE)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
-I (C:\Keil_v5\ARM\ARMCC\include\time.h)(0x599ECD2E)
-I (..\..\include\libc/libc_errno.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_fcntl.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_ioctl.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_dirent.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_signal.h)(0x5D6E27EE)
-I (C:\Keil_v5\ARM\ARMCC\include\signal.h)(0x599ECD2C)
-I (..\..\include\libc/libc_fdset.h)(0x5D6E27EE)
-I (..\..\include\rtservice.h)(0x5D6E27EE)
-I (..\..\include\rtm.h)(0x5D6E27EE)
-I (..\..\components\finsh\finsh_api.h)(0x5D6E27ED)
-I (..\..\components\finsh\finsh.h)(0x5D6E27ED)
-I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
-I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x599ECD2E)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599ECD2C)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599ECD2C)
-I (..\..\components\finsh\shell.h)(0x5D6E27ED)
-I (..\..\components\finsh\msh.h)(0x5D6E27ED)
-F (..\..\components\finsh\symbol.c)(0x5D6E27ED)(--c99 -c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections -I applications -I . -I drivers -I Libraries\CMSIS\CoreSupport -I Libraries\CMSIS\DeviceSupport -I Libraries\SWM320_StdPeriph_Driver -I ..\..\include -I ..\..\libcpu\arm\cortex-m4 -I ..\..\libcpu\arm\common -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\finsh-I.\RTE\_rt-thread-IC:\Users\llizh\AppData\Local\Arm\Packs\Synwit\SWM32_DFP\1.9.1\CSL\SWM320\CMSIS\DeviceSupport-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527"-o .\build\keil\obj\symbol.o --depend .\build\keil\obj\symbol.d)
-I (..\..\include\rtthread.h)(0x5D6E27EE)
-I (.\rtconfig.h)(0x5D6E27E9)
-I (..\..\include\rtdebug.h)(0x5D6E27EE)
-I (..\..\include\rtdef.h)(0x5D6E27EE)
-I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x599ECD2A)
-I (..\..\include\rtlibc.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_stat.h)(0x5D6E27EE)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
-I (C:\Keil_v5\ARM\ARMCC\include\time.h)(0x599ECD2E)
-I (..\..\include\libc/libc_errno.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_fcntl.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_ioctl.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_dirent.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_signal.h)(0x5D6E27EE)
-I (C:\Keil_v5\ARM\ARMCC\include\signal.h)(0x599ECD2C)
-I (..\..\include\libc/libc_fdset.h)(0x5D6E27EE)
-I (..\..\include\rtservice.h)(0x5D6E27EE)
-I (..\..\include\rtm.h)(0x5D6E27EE)
-I (..\..\components\finsh\finsh_api.h)(0x5D6E27ED)
-I (..\..\components\finsh\finsh.h)(0x5D6E27ED)
-I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
-I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x599ECD2E)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599ECD2C)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599ECD2C)
-F (..\..\components\finsh\cmd.c)(0x5D6E27ED)(--c99 -c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections -I applications -I . -I drivers -I Libraries\CMSIS\CoreSupport -I Libraries\CMSIS\DeviceSupport -I Libraries\SWM320_StdPeriph_Driver -I ..\..\include -I ..\..\libcpu\arm\cortex-m4 -I ..\..\libcpu\arm\common -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\finsh-I.\RTE\_rt-thread-IC:\Users\llizh\AppData\Local\Arm\Packs\Synwit\SWM32_DFP\1.9.1\CSL\SWM320\CMSIS\DeviceSupport-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527"-o .\build\keil\obj\cmd.o --depend .\build\keil\obj\cmd.d)
-I (..\..\include\rthw.h)(0x5D6E27EE)
-I (..\..\include\rtthread.h)(0x5D6E27EE)
-I (.\rtconfig.h)(0x5D6E27E9)
-I (..\..\include\rtdebug.h)(0x5D6E27EE)
-I (..\..\include\rtdef.h)(0x5D6E27EE)
-I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x599ECD2A)
-I (..\..\include\rtlibc.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_stat.h)(0x5D6E27EE)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
-I (C:\Keil_v5\ARM\ARMCC\include\time.h)(0x599ECD2E)
-I (..\..\include\libc/libc_errno.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_fcntl.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_ioctl.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_dirent.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_signal.h)(0x5D6E27EE)
-I (C:\Keil_v5\ARM\ARMCC\include\signal.h)(0x599ECD2C)
-I (..\..\include\libc/libc_fdset.h)(0x5D6E27EE)
-I (..\..\include\rtservice.h)(0x5D6E27EE)
-I (..\..\include\rtm.h)(0x5D6E27EE)
-I (..\..\components\finsh\finsh_api.h)(0x5D6E27ED)
-I (..\..\components\finsh\finsh.h)(0x5D6E27ED)
-I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
-I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x599ECD2E)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599ECD2C)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599ECD2C)
-F (..\..\components\finsh\msh.c)(0x5D6E27ED)(--c99 -c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections -I applications -I . -I drivers -I Libraries\CMSIS\CoreSupport -I Libraries\CMSIS\DeviceSupport -I Libraries\SWM320_StdPeriph_Driver -I ..\..\include -I ..\..\libcpu\arm\cortex-m4 -I ..\..\libcpu\arm\common -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\finsh-I.\RTE\_rt-thread-IC:\Users\llizh\AppData\Local\Arm\Packs\Synwit\SWM32_DFP\1.9.1\CSL\SWM320\CMSIS\DeviceSupport-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527"-o .\build\keil\obj\msh.o --depend .\build\keil\obj\msh.d)
-I (..\..\include\rtthread.h)(0x5D6E27EE)
-I (.\rtconfig.h)(0x5D6E27E9)
-I (..\..\include\rtdebug.h)(0x5D6E27EE)
-I (..\..\include\rtdef.h)(0x5D6E27EE)
-I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x599ECD2A)
-I (..\..\include\rtlibc.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_stat.h)(0x5D6E27EE)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
-I (C:\Keil_v5\ARM\ARMCC\include\time.h)(0x599ECD2E)
-I (..\..\include\libc/libc_errno.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_fcntl.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_ioctl.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_dirent.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_signal.h)(0x5D6E27EE)
-I (C:\Keil_v5\ARM\ARMCC\include\signal.h)(0x599ECD2C)
-I (..\..\include\libc/libc_fdset.h)(0x5D6E27EE)
-I (..\..\include\rtservice.h)(0x5D6E27EE)
-I (..\..\include\rtm.h)(0x5D6E27EE)
-I (..\..\components\finsh\finsh_api.h)(0x5D6E27ED)
-I (..\..\components\finsh\msh.h)(0x5D6E27ED)
-I (..\..\components\finsh\finsh.h)(0x5D6E27ED)
-I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
-I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x599ECD2E)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599ECD2C)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599ECD2C)
-I (..\..\components\finsh\shell.h)(0x5D6E27ED)
-F (..\..\components\finsh\msh_cmd.c)(0x5D6E27ED)(--c99 -c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections -I applications -I . -I drivers -I Libraries\CMSIS\CoreSupport -I Libraries\CMSIS\DeviceSupport -I Libraries\SWM320_StdPeriph_Driver -I ..\..\include -I ..\..\libcpu\arm\cortex-m4 -I ..\..\libcpu\arm\common -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\finsh-I.\RTE\_rt-thread-IC:\Users\llizh\AppData\Local\Arm\Packs\Synwit\SWM32_DFP\1.9.1\CSL\SWM320\CMSIS\DeviceSupport-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527"-o .\build\keil\obj\msh_cmd.o --depend .\build\keil\obj\msh_cmd.d)
-I (..\..\include\rtthread.h)(0x5D6E27EE)
-I (.\rtconfig.h)(0x5D6E27E9)
-I (..\..\include\rtdebug.h)(0x5D6E27EE)
-I (..\..\include\rtdef.h)(0x5D6E27EE)
-I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x599ECD2A)
-I (..\..\include\rtlibc.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_stat.h)(0x5D6E27EE)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
-I (C:\Keil_v5\ARM\ARMCC\include\time.h)(0x599ECD2E)
-I (..\..\include\libc/libc_errno.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_fcntl.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_ioctl.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_dirent.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_signal.h)(0x5D6E27EE)
-I (C:\Keil_v5\ARM\ARMCC\include\signal.h)(0x599ECD2C)
-I (..\..\include\libc/libc_fdset.h)(0x5D6E27EE)
-I (..\..\include\rtservice.h)(0x5D6E27EE)
-I (..\..\include\rtm.h)(0x5D6E27EE)
-I (..\..\components\finsh\finsh_api.h)(0x5D6E27ED)
-I (..\..\components\finsh\finsh.h)(0x5D6E27ED)
-I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
-I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x599ECD2E)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599ECD2C)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599ECD2C)
-I (..\..\components\finsh\msh.h)(0x5D6E27ED)
-F (..\..\components\finsh\msh_file.c)(0x5D6E27ED)(--c99 -c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections -I applications -I . -I drivers -I Libraries\CMSIS\CoreSupport -I Libraries\CMSIS\DeviceSupport -I Libraries\SWM320_StdPeriph_Driver -I ..\..\include -I ..\..\libcpu\arm\cortex-m4 -I ..\..\libcpu\arm\common -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\finsh-I.\RTE\_rt-thread-IC:\Users\llizh\AppData\Local\Arm\Packs\Synwit\SWM32_DFP\1.9.1\CSL\SWM320\CMSIS\DeviceSupport-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527"-o .\build\keil\obj\msh_file.o --depend .\build\keil\obj\msh_file.d)
-I (..\..\include\rtthread.h)(0x5D6E27EE)
-I (.\rtconfig.h)(0x5D6E27E9)
-I (..\..\include\rtdebug.h)(0x5D6E27EE)
-I (..\..\include\rtdef.h)(0x5D6E27EE)
-I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x599ECD2A)
-I (..\..\include\rtlibc.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_stat.h)(0x5D6E27EE)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
-I (C:\Keil_v5\ARM\ARMCC\include\time.h)(0x599ECD2E)
-I (..\..\include\libc/libc_errno.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_fcntl.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_ioctl.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_dirent.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_signal.h)(0x5D6E27EE)
-I (C:\Keil_v5\ARM\ARMCC\include\signal.h)(0x599ECD2C)
-I (..\..\include\libc/libc_fdset.h)(0x5D6E27EE)
-I (..\..\include\rtservice.h)(0x5D6E27EE)
-I (..\..\include\rtm.h)(0x5D6E27EE)
-I (..\..\components\finsh\finsh_api.h)(0x5D6E27ED)
-F (..\..\components\finsh\finsh_compiler.c)(0x5D6E27ED)(--c99 -c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections -I applications -I . -I drivers -I Libraries\CMSIS\CoreSupport -I Libraries\CMSIS\DeviceSupport -I Libraries\SWM320_StdPeriph_Driver -I ..\..\include -I ..\..\libcpu\arm\cortex-m4 -I ..\..\libcpu\arm\common -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\finsh-I.\RTE\_rt-thread-IC:\Users\llizh\AppData\Local\Arm\Packs\Synwit\SWM32_DFP\1.9.1\CSL\SWM320\CMSIS\DeviceSupport-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527"-o .\build\keil\obj\finsh_compiler.o --depend .\build\keil\obj\finsh_compiler.d)
-I (..\..\components\finsh\finsh.h)(0x5D6E27ED)
-I (..\..\include\rtthread.h)(0x5D6E27EE)
-I (.\rtconfig.h)(0x5D6E27E9)
-I (..\..\include\rtdebug.h)(0x5D6E27EE)
-I (..\..\include\rtdef.h)(0x5D6E27EE)
-I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x599ECD2A)
-I (..\..\include\rtlibc.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_stat.h)(0x5D6E27EE)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
-I (C:\Keil_v5\ARM\ARMCC\include\time.h)(0x599ECD2E)
-I (..\..\include\libc/libc_errno.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_fcntl.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_ioctl.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_dirent.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_signal.h)(0x5D6E27EE)
-I (C:\Keil_v5\ARM\ARMCC\include\signal.h)(0x599ECD2C)
-I (..\..\include\libc/libc_fdset.h)(0x5D6E27EE)
-I (..\..\include\rtservice.h)(0x5D6E27EE)
-I (..\..\include\rtm.h)(0x5D6E27EE)
-I (..\..\components\finsh\finsh_api.h)(0x5D6E27ED)
-I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
-I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x599ECD2E)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599ECD2C)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599ECD2C)
-I (..\..\components\finsh\finsh_node.h)(0x5D6E27ED)
-I (..\..\components\finsh\finsh_error.h)(0x5D6E27ED)
-I (..\..\components\finsh\finsh_var.h)(0x5D6E27ED)
-I (..\..\components\finsh\finsh_ops.h)(0x5D6E27ED)
-I (..\..\components\finsh\finsh_vm.h)(0x5D6E27ED)
-F (..\..\components\finsh\finsh_error.c)(0x5D6E27ED)(--c99 -c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections -I applications -I . -I drivers -I Libraries\CMSIS\CoreSupport -I Libraries\CMSIS\DeviceSupport -I Libraries\SWM320_StdPeriph_Driver -I ..\..\include -I ..\..\libcpu\arm\cortex-m4 -I ..\..\libcpu\arm\common -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\finsh-I.\RTE\_rt-thread-IC:\Users\llizh\AppData\Local\Arm\Packs\Synwit\SWM32_DFP\1.9.1\CSL\SWM320\CMSIS\DeviceSupport-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527"-o .\build\keil\obj\finsh_error.o --depend .\build\keil\obj\finsh_error.d)
-I (..\..\components\finsh\finsh_error.h)(0x5D6E27ED)
-I (..\..\components\finsh\finsh.h)(0x5D6E27ED)
-I (..\..\include\rtthread.h)(0x5D6E27EE)
-I (.\rtconfig.h)(0x5D6E27E9)
-I (..\..\include\rtdebug.h)(0x5D6E27EE)
-I (..\..\include\rtdef.h)(0x5D6E27EE)
-I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x599ECD2A)
-I (..\..\include\rtlibc.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_stat.h)(0x5D6E27EE)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
-I (C:\Keil_v5\ARM\ARMCC\include\time.h)(0x599ECD2E)
-I (..\..\include\libc/libc_errno.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_fcntl.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_ioctl.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_dirent.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_signal.h)(0x5D6E27EE)
-I (C:\Keil_v5\ARM\ARMCC\include\signal.h)(0x599ECD2C)
-I (..\..\include\libc/libc_fdset.h)(0x5D6E27EE)
-I (..\..\include\rtservice.h)(0x5D6E27EE)
-I (..\..\include\rtm.h)(0x5D6E27EE)
-I (..\..\components\finsh\finsh_api.h)(0x5D6E27ED)
-I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
-I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x599ECD2E)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599ECD2C)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599ECD2C)
-F (..\..\components\finsh\finsh_heap.c)(0x5D6E27ED)(--c99 -c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections -I applications -I . -I drivers -I Libraries\CMSIS\CoreSupport -I Libraries\CMSIS\DeviceSupport -I Libraries\SWM320_StdPeriph_Driver -I ..\..\include -I ..\..\libcpu\arm\cortex-m4 -I ..\..\libcpu\arm\common -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\finsh-I.\RTE\_rt-thread-IC:\Users\llizh\AppData\Local\Arm\Packs\Synwit\SWM32_DFP\1.9.1\CSL\SWM320\CMSIS\DeviceSupport-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527"-o .\build\keil\obj\finsh_heap.o --depend .\build\keil\obj\finsh_heap.d)
-I (..\..\components\finsh\finsh.h)(0x5D6E27ED)
-I (..\..\include\rtthread.h)(0x5D6E27EE)
-I (.\rtconfig.h)(0x5D6E27E9)
-I (..\..\include\rtdebug.h)(0x5D6E27EE)
-I (..\..\include\rtdef.h)(0x5D6E27EE)
-I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x599ECD2A)
-I (..\..\include\rtlibc.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_stat.h)(0x5D6E27EE)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
-I (C:\Keil_v5\ARM\ARMCC\include\time.h)(0x599ECD2E)
-I (..\..\include\libc/libc_errno.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_fcntl.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_ioctl.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_dirent.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_signal.h)(0x5D6E27EE)
-I (C:\Keil_v5\ARM\ARMCC\include\signal.h)(0x599ECD2C)
-I (..\..\include\libc/libc_fdset.h)(0x5D6E27EE)
-I (..\..\include\rtservice.h)(0x5D6E27EE)
-I (..\..\include\rtm.h)(0x5D6E27EE)
-I (..\..\components\finsh\finsh_api.h)(0x5D6E27ED)
-I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
-I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x599ECD2E)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599ECD2C)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599ECD2C)
-I (..\..\components\finsh\finsh_var.h)(0x5D6E27ED)
-F (..\..\components\finsh\finsh_init.c)(0x5D6E27ED)(--c99 -c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections -I applications -I . -I drivers -I Libraries\CMSIS\CoreSupport -I Libraries\CMSIS\DeviceSupport -I Libraries\SWM320_StdPeriph_Driver -I ..\..\include -I ..\..\libcpu\arm\cortex-m4 -I ..\..\libcpu\arm\common -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\finsh-I.\RTE\_rt-thread-IC:\Users\llizh\AppData\Local\Arm\Packs\Synwit\SWM32_DFP\1.9.1\CSL\SWM320\CMSIS\DeviceSupport-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527"-o .\build\keil\obj\finsh_init.o --depend .\build\keil\obj\finsh_init.d)
-I (..\..\components\finsh\finsh.h)(0x5D6E27ED)
-I (..\..\include\rtthread.h)(0x5D6E27EE)
-I (.\rtconfig.h)(0x5D6E27E9)
-I (..\..\include\rtdebug.h)(0x5D6E27EE)
-I (..\..\include\rtdef.h)(0x5D6E27EE)
-I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x599ECD2A)
-I (..\..\include\rtlibc.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_stat.h)(0x5D6E27EE)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
-I (C:\Keil_v5\ARM\ARMCC\include\time.h)(0x599ECD2E)
-I (..\..\include\libc/libc_errno.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_fcntl.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_ioctl.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_dirent.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_signal.h)(0x5D6E27EE)
-I (C:\Keil_v5\ARM\ARMCC\include\signal.h)(0x599ECD2C)
-I (..\..\include\libc/libc_fdset.h)(0x5D6E27EE)
-I (..\..\include\rtservice.h)(0x5D6E27EE)
-I (..\..\include\rtm.h)(0x5D6E27EE)
-I (..\..\components\finsh\finsh_api.h)(0x5D6E27ED)
-I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
-I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x599ECD2E)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599ECD2C)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599ECD2C)
-I (..\..\components\finsh\finsh_node.h)(0x5D6E27ED)
-I (..\..\components\finsh\finsh_vm.h)(0x5D6E27ED)
-I (..\..\components\finsh\finsh_var.h)(0x5D6E27ED)
-I (..\..\components\finsh\finsh_parser.h)(0x5D6E27ED)
-I (..\..\components\finsh\finsh_error.h)(0x5D6E27ED)
-I (..\..\components\finsh\finsh_heap.h)(0x5D6E27ED)
-F (..\..\components\finsh\finsh_node.c)(0x5D6E27ED)(--c99 -c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections -I applications -I . -I drivers -I Libraries\CMSIS\CoreSupport -I Libraries\CMSIS\DeviceSupport -I Libraries\SWM320_StdPeriph_Driver -I ..\..\include -I ..\..\libcpu\arm\cortex-m4 -I ..\..\libcpu\arm\common -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\finsh-I.\RTE\_rt-thread-IC:\Users\llizh\AppData\Local\Arm\Packs\Synwit\SWM32_DFP\1.9.1\CSL\SWM320\CMSIS\DeviceSupport-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527"-o .\build\keil\obj\finsh_node.o --depend .\build\keil\obj\finsh_node.d)
-I (..\..\components\finsh\finsh.h)(0x5D6E27ED)
-I (..\..\include\rtthread.h)(0x5D6E27EE)
-I (.\rtconfig.h)(0x5D6E27E9)
-I (..\..\include\rtdebug.h)(0x5D6E27EE)
-I (..\..\include\rtdef.h)(0x5D6E27EE)
-I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x599ECD2A)
-I (..\..\include\rtlibc.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_stat.h)(0x5D6E27EE)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
-I (C:\Keil_v5\ARM\ARMCC\include\time.h)(0x599ECD2E)
-I (..\..\include\libc/libc_errno.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_fcntl.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_ioctl.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_dirent.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_signal.h)(0x5D6E27EE)
-I (C:\Keil_v5\ARM\ARMCC\include\signal.h)(0x599ECD2C)
-I (..\..\include\libc/libc_fdset.h)(0x5D6E27EE)
-I (..\..\include\rtservice.h)(0x5D6E27EE)
-I (..\..\include\rtm.h)(0x5D6E27EE)
-I (..\..\components\finsh\finsh_api.h)(0x5D6E27ED)
-I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
-I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x599ECD2E)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599ECD2C)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599ECD2C)
-I (..\..\components\finsh\finsh_node.h)(0x5D6E27ED)
-I (..\..\components\finsh\finsh_error.h)(0x5D6E27ED)
-I (..\..\components\finsh\finsh_var.h)(0x5D6E27ED)
-I (..\..\components\finsh\finsh_heap.h)(0x5D6E27ED)
-F (..\..\components\finsh\finsh_ops.c)(0x5D6E27ED)(--c99 -c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections -I applications -I . -I drivers -I Libraries\CMSIS\CoreSupport -I Libraries\CMSIS\DeviceSupport -I Libraries\SWM320_StdPeriph_Driver -I ..\..\include -I ..\..\libcpu\arm\cortex-m4 -I ..\..\libcpu\arm\common -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\finsh-I.\RTE\_rt-thread-IC:\Users\llizh\AppData\Local\Arm\Packs\Synwit\SWM32_DFP\1.9.1\CSL\SWM320\CMSIS\DeviceSupport-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527"-o .\build\keil\obj\finsh_ops.o --depend .\build\keil\obj\finsh_ops.d)
-I (..\..\components\finsh\finsh_ops.h)(0x5D6E27ED)
-I (..\..\components\finsh\finsh_vm.h)(0x5D6E27ED)
-I (..\..\components\finsh\finsh.h)(0x5D6E27ED)
-I (..\..\include\rtthread.h)(0x5D6E27EE)
-I (.\rtconfig.h)(0x5D6E27E9)
-I (..\..\include\rtdebug.h)(0x5D6E27EE)
-I (..\..\include\rtdef.h)(0x5D6E27EE)
-I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x599ECD2A)
-I (..\..\include\rtlibc.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_stat.h)(0x5D6E27EE)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
-I (C:\Keil_v5\ARM\ARMCC\include\time.h)(0x599ECD2E)
-I (..\..\include\libc/libc_errno.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_fcntl.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_ioctl.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_dirent.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_signal.h)(0x5D6E27EE)
-I (C:\Keil_v5\ARM\ARMCC\include\signal.h)(0x599ECD2C)
-I (..\..\include\libc/libc_fdset.h)(0x5D6E27EE)
-I (..\..\include\rtservice.h)(0x5D6E27EE)
-I (..\..\include\rtm.h)(0x5D6E27EE)
-I (..\..\components\finsh\finsh_api.h)(0x5D6E27ED)
-I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
-I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x599ECD2E)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599ECD2C)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599ECD2C)
-I (..\..\components\finsh\finsh_var.h)(0x5D6E27ED)
-F (..\..\components\finsh\finsh_parser.c)(0x5D6E27ED)(--c99 -c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections -I applications -I . -I drivers -I Libraries\CMSIS\CoreSupport -I Libraries\CMSIS\DeviceSupport -I Libraries\SWM320_StdPeriph_Driver -I ..\..\include -I ..\..\libcpu\arm\cortex-m4 -I ..\..\libcpu\arm\common -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\finsh-I.\RTE\_rt-thread-IC:\Users\llizh\AppData\Local\Arm\Packs\Synwit\SWM32_DFP\1.9.1\CSL\SWM320\CMSIS\DeviceSupport-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527"-o .\build\keil\obj\finsh_parser.o --depend .\build\keil\obj\finsh_parser.d)
-I (..\..\components\finsh\finsh.h)(0x5D6E27ED)
-I (..\..\include\rtthread.h)(0x5D6E27EE)
-I (.\rtconfig.h)(0x5D6E27E9)
-I (..\..\include\rtdebug.h)(0x5D6E27EE)
-I (..\..\include\rtdef.h)(0x5D6E27EE)
-I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x599ECD2A)
-I (..\..\include\rtlibc.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_stat.h)(0x5D6E27EE)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
-I (C:\Keil_v5\ARM\ARMCC\include\time.h)(0x599ECD2E)
-I (..\..\include\libc/libc_errno.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_fcntl.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_ioctl.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_dirent.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_signal.h)(0x5D6E27EE)
-I (C:\Keil_v5\ARM\ARMCC\include\signal.h)(0x599ECD2C)
-I (..\..\include\libc/libc_fdset.h)(0x5D6E27EE)
-I (..\..\include\rtservice.h)(0x5D6E27EE)
-I (..\..\include\rtm.h)(0x5D6E27EE)
-I (..\..\components\finsh\finsh_api.h)(0x5D6E27ED)
-I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
-I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x599ECD2E)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599ECD2C)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599ECD2C)
-I (..\..\components\finsh\finsh_token.h)(0x5D6E27ED)
-I (..\..\components\finsh\finsh_node.h)(0x5D6E27ED)
-I (..\..\components\finsh\finsh_error.h)(0x5D6E27ED)
-I (..\..\components\finsh\finsh_parser.h)(0x5D6E27ED)
-I (..\..\components\finsh\finsh_var.h)(0x5D6E27ED)
-F (..\..\components\finsh\finsh_var.c)(0x5D6E27ED)(--c99 -c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections -I applications -I . -I drivers -I Libraries\CMSIS\CoreSupport -I Libraries\CMSIS\DeviceSupport -I Libraries\SWM320_StdPeriph_Driver -I ..\..\include -I ..\..\libcpu\arm\cortex-m4 -I ..\..\libcpu\arm\common -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\finsh-I.\RTE\_rt-thread-IC:\Users\llizh\AppData\Local\Arm\Packs\Synwit\SWM32_DFP\1.9.1\CSL\SWM320\CMSIS\DeviceSupport-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527"-o .\build\keil\obj\finsh_var.o --depend .\build\keil\obj\finsh_var.d)
-I (..\..\components\finsh\finsh.h)(0x5D6E27ED)
-I (..\..\include\rtthread.h)(0x5D6E27EE)
-I (.\rtconfig.h)(0x5D6E27E9)
-I (..\..\include\rtdebug.h)(0x5D6E27EE)
-I (..\..\include\rtdef.h)(0x5D6E27EE)
-I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x599ECD2A)
-I (..\..\include\rtlibc.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_stat.h)(0x5D6E27EE)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
-I (C:\Keil_v5\ARM\ARMCC\include\time.h)(0x599ECD2E)
-I (..\..\include\libc/libc_errno.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_fcntl.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_ioctl.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_dirent.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_signal.h)(0x5D6E27EE)
-I (C:\Keil_v5\ARM\ARMCC\include\signal.h)(0x599ECD2C)
-I (..\..\include\libc/libc_fdset.h)(0x5D6E27EE)
-I (..\..\include\rtservice.h)(0x5D6E27EE)
-I (..\..\include\rtm.h)(0x5D6E27EE)
-I (..\..\components\finsh\finsh_api.h)(0x5D6E27ED)
-I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
-I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x599ECD2E)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599ECD2C)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599ECD2C)
-I (..\..\components\finsh\finsh_var.h)(0x5D6E27ED)
-F (..\..\components\finsh\finsh_vm.c)(0x5D6E27ED)(--c99 -c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections -I applications -I . -I drivers -I Libraries\CMSIS\CoreSupport -I Libraries\CMSIS\DeviceSupport -I Libraries\SWM320_StdPeriph_Driver -I ..\..\include -I ..\..\libcpu\arm\cortex-m4 -I ..\..\libcpu\arm\common -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\finsh-I.\RTE\_rt-thread-IC:\Users\llizh\AppData\Local\Arm\Packs\Synwit\SWM32_DFP\1.9.1\CSL\SWM320\CMSIS\DeviceSupport-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527"-o .\build\keil\obj\finsh_vm.o --depend .\build\keil\obj\finsh_vm.d)
-I (..\..\components\finsh\finsh.h)(0x5D6E27ED)
-I (..\..\include\rtthread.h)(0x5D6E27EE)
-I (.\rtconfig.h)(0x5D6E27E9)
-I (..\..\include\rtdebug.h)(0x5D6E27EE)
-I (..\..\include\rtdef.h)(0x5D6E27EE)
-I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x599ECD2A)
-I (..\..\include\rtlibc.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_stat.h)(0x5D6E27EE)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
-I (C:\Keil_v5\ARM\ARMCC\include\time.h)(0x599ECD2E)
-I (..\..\include\libc/libc_errno.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_fcntl.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_ioctl.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_dirent.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_signal.h)(0x5D6E27EE)
-I (C:\Keil_v5\ARM\ARMCC\include\signal.h)(0x599ECD2C)
-I (..\..\include\libc/libc_fdset.h)(0x5D6E27EE)
-I (..\..\include\rtservice.h)(0x5D6E27EE)
-I (..\..\include\rtm.h)(0x5D6E27EE)
-I (..\..\components\finsh\finsh_api.h)(0x5D6E27ED)
-I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
-I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x599ECD2E)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599ECD2C)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599ECD2C)
-I (..\..\components\finsh\finsh_vm.h)(0x5D6E27ED)
-I (..\..\components\finsh\finsh_var.h)(0x5D6E27ED)
-I (..\..\components\finsh\finsh_ops.h)(0x5D6E27ED)
-F (..\..\components\finsh\finsh_token.c)(0x5D6E27ED)(--c99 -c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections -I applications -I . -I drivers -I Libraries\CMSIS\CoreSupport -I Libraries\CMSIS\DeviceSupport -I Libraries\SWM320_StdPeriph_Driver -I ..\..\include -I ..\..\libcpu\arm\cortex-m4 -I ..\..\libcpu\arm\common -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\finsh-I.\RTE\_rt-thread-IC:\Users\llizh\AppData\Local\Arm\Packs\Synwit\SWM32_DFP\1.9.1\CSL\SWM320\CMSIS\DeviceSupport-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527"-o .\build\keil\obj\finsh_token.o --depend .\build\keil\obj\finsh_token.d)
-I (..\..\components\finsh\finsh.h)(0x5D6E27ED)
-I (..\..\include\rtthread.h)(0x5D6E27EE)
-I (.\rtconfig.h)(0x5D6E27E9)
-I (..\..\include\rtdebug.h)(0x5D6E27EE)
-I (..\..\include\rtdef.h)(0x5D6E27EE)
-I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x599ECD2A)
-I (..\..\include\rtlibc.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_stat.h)(0x5D6E27EE)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
-I (C:\Keil_v5\ARM\ARMCC\include\time.h)(0x599ECD2E)
-I (..\..\include\libc/libc_errno.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_fcntl.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_ioctl.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_dirent.h)(0x5D6E27EE)
-I (..\..\include\libc/libc_signal.h)(0x5D6E27EE)
-I (C:\Keil_v5\ARM\ARMCC\include\signal.h)(0x599ECD2C)
-I (..\..\include\libc/libc_fdset.h)(0x5D6E27EE)
-I (..\..\include\rtservice.h)(0x5D6E27EE)
-I (..\..\include\rtm.h)(0x5D6E27EE)
-I (..\..\components\finsh\finsh_api.h)(0x5D6E27ED)
-I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
-I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x599ECD2E)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599ECD2C)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599ECD2C)
-I (..\..\components\finsh\finsh_token.h)(0x5D6E27ED)
-I (..\..\components\finsh\finsh_error.h)(0x5D6E27ED)
